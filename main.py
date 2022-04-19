@@ -1,52 +1,32 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
+import streamlit.components.v1 as html
+from  PIL import Image
 from apps import about_us, compare_tickets, contact_us
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Sharone's Streamlit App Gallery", page_icon="", layout="wide")
 
-# SETTINGS
-#variables
-HOME = 1
-DATA_SEARCH = 2
-COMPARE_TICKETS = 3
-ABOUT_US = 4
-CONTACT_US = 5
-set_page = 1 # show HOME page as default
+# REF : https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py
 
-#functions 
+# SET NAVIGATION BAR
+with st.sidebar:
+    choose = option_menu("App Gallery", ["HOME", "DATA SEARCH", "DATA COMPARISION", "ABOUT US", "CONTACT US"],
+                         icons=['house', 'camera fill', 'kanban', 'book','person lines fill'],
+                         menu_icon="app-indicator", default_index=0,
+                         styles={
+        "container": {"padding": "5!important", "background-color": "#fafafa"},
+        "icon": {"color": "orange", "font-size": "25px"}, 
+        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+        "nav-link-selected": {"background-color": "#02ab21"},
+    }
+    )
 
-
-# WEB SITE 
-
-nav_col1, nav_col2, nav_col3, nav_col4, nav_col5 = st.columns(5)
-with nav_col1:
-    if st.button("HOME"):
-        set_page = HOME
-with nav_col2:
-    if st.button("DATA SEARCH"):
-        set_page = DATA_SEARCH
-with nav_col3:
-    if st.button("COMPARE TICKETS"):
-        set_page = COMPARE_TICKETS
-with nav_col4:
-    if st.button("ABOUT US"):
-        set_page = ABOUT_US
-with nav_col5:
-    if st.button("CONTACT US"):
-        set_page = CONTACT_US
-
-# apply css file
-with open('lib/style/main_style.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html = True)
-
-
-# set page
-if (set_page == HOME):
-    about_us.app()
-elif (set_page == DATA_SEARCH):
-    about_us.app()
-elif (set_page == COMPARE_TICKETS):
+if choose == "HOME":
     compare_tickets.app()
-elif (set_page == ABOUT_US):
+elif choose == "DATA SEARCH":
+    compare_tickets.app()
+elif choose == "DATA COMPARISION":
+    compare_tickets.app()
+elif choose == "ABOUT US":
     about_us.app()
-elif (set_page == CONTACT_US):
+elif choose == "CONTACT US":
     contact_us.app()
-

@@ -1,5 +1,4 @@
 import streamlit as st
-from multi_app import Multi_app
 from apps import about_us, compare_tickets, contact_us
 st.set_page_config(layout="wide")
 

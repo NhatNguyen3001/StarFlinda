@@ -7,7 +7,7 @@ st.set_page_config(page_title="StaFiIndia", page_icon="✈️", layout="wide")
 
 # SET NAVIGATION BAR
 with st.sidebar:
-    choose = option_menu("Menu", ["HOME", "ㄴGraph type 1", "ㄴGraph type 2", "ㄴGraph type 3", "ㄴGraph type 4", "ㄴGraph type 5"
+    choose = option_menu("Menu", ["HOME", "ㄴGraph type 0", "ㄴGraph type 2", "ㄴGraph type 3", "ㄴGraph type 4", "ㄴGraph type 5"
                                         , "DATA SEARCH", "DATA COMPARISION", "ABOUT US", "CONTACT US"],
                          icons=['house', 'bar chart', 'bar chart', 'bar chart', 'bar chart', 'bar chart',
                                 'search', 'kanban', 'person lines fill'],

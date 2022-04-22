@@ -36,22 +36,25 @@ def app():
         with st_col:  # explaination col
             st.header("How Can We Help?")
             st.write("""
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.""")
+                        Please fill up the form. Out team will get back to you within 48 hours.\n\n\n
+
+                        Phone number: +0123 4567 8910\n\n
+
+                        Email: support_team@StaFiIndia.com\n\n
+
+                        Addreess: 457-89, 254 Street, District 7
+            """)
 
             st.header("Working hours")
-            st.write("""Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.""")
+            st.write("""
+                        Monday: 9 AM - 5 PM \n
+                        Tuesday: 9 AM - 5 PM \n
+                        Wednesday: 9 AM - 5 PM \n
+                        Thursday: 9 AM - 5 PM \n
+                        Friday: 9 AM - 5 PM \n
+                        Saturday: 10 AM - 5 PM \n
+                        Sunday: 10 AM - 3 PM \n
+            """)
 
 
         # Bottom part
@@ -60,17 +63,17 @@ def app():
         # nested col in st_col2, show support team's team member
         sttm_col1, sttm_col2, sttm_col3 = st.columns(3)
         with sttm_col1:
-            member_profile1 = Image.open("../lib/img/support_team_member1.png")
+            member_profile1 = Image.open("lib//img//support_team_member1.png")
             # ref https://pixabay.com/photos/woman-asian-model-portrait-girl-5772021/
             st.image(member_profile1,
-                    caption="Ngo Thanh Van")
+                    caption="Phan Do Ngoc Linh")
         with sttm_col2:
-            member_profile1 = Image.open("../lib/img/support_team_member2.png")
+            member_profile1 = Image.open("lib//img//support_team_member2.png")
             # ref https://pixabay.com/photos/smile-work-business-success-5047506/
             st.image(member_profile1,
-                    caption="John James",)
+                    caption="Nguyen Dang Nhat",)
         with sttm_col3:
-            member_profile1 = Image.open("../lib/img/support_team_member3.png")
+            member_profile1 = Image.open("lib//img//support_team_member3.png")
             # ref https://pixabay.com/photos/business-lady-woman-young-woman-3560921/
             st.image(member_profile1,
-                    caption="Katie Kim")
+                    caption="Vo Ngoc Diem Tien")

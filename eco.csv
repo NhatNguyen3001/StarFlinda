@@ -1,0 +1,252 @@
+date,airline,ch_code,num_code,dep_time,from,time_taken,stop,arr_time,to,price,class,ticket_id
+24/03/22,Vistara,UK,893,19:55,Bangalore,18h 35m,1-stop,14:30,Mumbai,4792,economy,1
+24/03/22,Vistara,UK,897,7:55,Bangalore,26h 05m,1-stop,10:00,Mumbai,4792,economy,2
+24/03/22,SpiceJet,SG,3027,5:45,Bangalore,09h 00m,1-stop,14:45,Mumbai,4613,economy,3
+24/03/22,Indigo,6E,841,14:50,Bangalore,04h 55m,1-stop,19:45,Mumbai,4806,economy,4
+24/03/22,GO FIRST,G8,805,8:15,Bangalore,15h 15m,1-stop,23:30,Mumbai,4807,economy,5
+24/03/22,Indigo,6E,161,13:35,Bangalore,04h 10m,1-stop,17:45,Mumbai,5012,economy,6
+24/03/22,GO FIRST,G8,803,18:50,Bangalore,07h 10m,1-stop,2:00,Mumbai,5744,economy,7
+24/03/22,GO FIRST,G8,803,18:50,Bangalore,13h 50m,1-stop,8:40,Mumbai,5744,economy,8
+24/03/22,GO FIRST,G8,801,5:30,Bangalore,14h 45m,1-stop,20:15,Mumbai,5744,economy,9
+24/03/22,Air India,AI,516,7:35,Bangalore,12h 25m,1-stop,20:00,Mumbai,5761,economy,10
+24/03/22,Air India,AI,516,7:35,Bangalore,13h 40m,1-stop,21:15,Mumbai,5761,economy,11
+24/03/22,Air India,AI,516,7:35,Bangalore,14h 00m,1-stop,21:35,Mumbai,5761,economy,12
+24/03/22,Air India,AI,516,7:35,Bangalore,14h 35m,1-stop,22:10,Mumbai,5761,economy,13
+24/03/22,Air India,AI,516,7:35,Bangalore,25h 30m,1-stop,9:05,Mumbai,5761,economy,14
+24/03/22,Air India,AI,9517,18:50,Bangalore,18h 00m,1-stop,12:50,Mumbai,5771,economy,15
+24/03/22,Air India,AI,9517,18:50,Bangalore,23h 10m,1-stop,18:00,Mumbai,5771,economy,16
+24/03/22,Air India,AI,9517,18:50,Bangalore,25h 10m,1-stop,20:00,Mumbai,5771,economy,17
+24/03/22,Vistara,UK,657,11:30,Bangalore,10h 05m,1-stop,21:35,Mumbai,6332,economy,18
+24/03/22,Air India,AI,505,10:25,Bangalore,07h 35m,1-stop,18:00,Mumbai,6158,economy,19
+24/03/22,Air India,AI,505,10:25,Bangalore,09h 35m,1-stop,20:00,Mumbai,6158,economy,20
+24/03/22,Air India,AI,505,10:25,Bangalore,10h 50m,1-stop,21:15,Mumbai,6158,economy,21
+24/03/22,Air India,AI,505,10:25,Bangalore,11h 10m,1-stop,21:35,Mumbai,6158,economy,22
+24/03/22,Air India,AI,505,10:25,Bangalore,11h 45m,1-stop,22:10,Mumbai,6158,economy,23
+24/03/22,Air India,AI,503,17:50,Bangalore,15h 15m,1-stop,9:05,Mumbai,6158,economy,24
+24/03/22,Air India,AI,503,17:50,Bangalore,16h 20m,1-stop,10:10,Mumbai,6158,economy,25
+24/03/22,Air India,AI,503,17:50,Bangalore,17h 25m,1-stop,11:15,Mumbai,6158,economy,26
+24/03/22,Air India,AI,503,17:50,Bangalore,19h 00m,1-stop,12:50,Mumbai,6158,economy,27
+24/03/22,Air India,AI,505,10:25,Bangalore,22h 40m,1-stop,9:05,Mumbai,6158,economy,28
+24/03/22,Air India,AI,505,10:25,Bangalore,23h 45m,1-stop,10:10,Mumbai,6158,economy,29
+24/03/22,Air India,AI,503,17:50,Bangalore,24h 10m,1-stop,18:00,Mumbai,6158,economy,30
+24/03/22,Air India,AI,503,17:50,Bangalore,26h 10m,1-stop,20:00,Mumbai,6158,economy,31
+24/03/22,Air India,AI,503,17:50,Bangalore,27h 25m,1-stop,21:15,Mumbai,6158,economy,32
+24/03/22,GO FIRST,G8,808,11:00,Bangalore,09h 20m,1-stop,20:20,Mumbai,6199,economy,33
+24/03/22,Vistara,UK,808,8:00,Bangalore,06h 00m,1-stop,14:00,Mumbai,6568,economy,34
+24/03/22,Vistara,UK,820,17:50,Bangalore,06h 00m,1-stop,23:50,Mumbai,6568,economy,35
+24/03/22,Vistara,UK,816,11:30,Bangalore,06h 10m,1-stop,17:40,Mumbai,6568,economy,36
+24/03/22,Vistara,UK,812,9:45,Bangalore,06h 45m,1-stop,16:30,Mumbai,6568,economy,37
+24/03/22,Vistara,UK,810,7:00,Bangalore,07h 00m,1-stop,14:00,Mumbai,6568,economy,38
+24/03/22,Vistara,UK,808,8:00,Bangalore,07h 00m,1-stop,15:00,Mumbai,6568,economy,39
+24/03/22,Vistara,UK,816,11:30,Bangalore,07h 35m,1-stop,19:05,Mumbai,6568,economy,40
+24/03/22,Vistara,UK,812,9:45,Bangalore,07h 55m,1-stop,17:40,Mumbai,6568,economy,41
+24/03/22,Vistara,UK,810,7:00,Bangalore,08h 00m,1-stop,15:00,Mumbai,6568,economy,42
+24/03/22,Vistara,UK,808,8:00,Bangalore,08h 30m,1-stop,16:30,Mumbai,6568,economy,43
+24/03/22,Vistara,UK,812,9:45,Bangalore,09h 20m,1-stop,19:05,Mumbai,6568,economy,44
+24/03/22,Vistara,UK,810,7:00,Bangalore,09h 30m,1-stop,16:30,Mumbai,6568,economy,45
+24/03/22,Vistara,UK,808,8:00,Bangalore,09h 40m,1-stop,17:40,Mumbai,6568,economy,46
+24/03/22,Vistara,UK,816,11:30,Bangalore,10h 30m,1-stop,22:00,Mumbai,6568,economy,47
+24/03/22,Vistara,UK,810,7:00,Bangalore,10h 40m,1-stop,17:40,Mumbai,6568,economy,48
+24/03/22,Vistara,UK,814,21:10,Bangalore,10h 45m,1-stop,7:55,Mumbai,6568,economy,49
+24/03/22,Vistara,UK,808,8:00,Bangalore,11h 05m,1-stop,19:05,Mumbai,6568,economy,50
+24/03/22,Vistara,UK,816,11:30,Bangalore,11h 20m,1-stop,22:50,Mumbai,6568,economy,51
+24/03/22,Vistara,UK,810,7:00,Bangalore,12h 05m,1-stop,19:05,Mumbai,6568,economy,52
+24/03/22,Vistara,UK,812,9:45,Bangalore,12h 15m,1-stop,22:00,Mumbai,6568,economy,53
+24/03/22,Vistara,UK,818,19:40,Bangalore,12h 15m,1-stop,7:55,Mumbai,6568,economy,54
+24/03/22,Vistara,UK,816,11:30,Bangalore,12h 20m,1-stop,23:50,Mumbai,6568,economy,55
+24/03/22,Vistara,UK,812,9:45,Bangalore,13h 05m,1-stop,22:50,Mumbai,6568,economy,56
+24/03/22,Vistara,UK,802,18:50,Bangalore,13h 05m,1-stop,7:55,Mumbai,6568,economy,57
+24/03/22,Vistara,UK,808,8:00,Bangalore,14h 00m,1-stop,22:00,Mumbai,6568,economy,58
+24/03/22,Vistara,UK,814,21:10,Bangalore,14h 00m,1-stop,11:10,Mumbai,6568,economy,59
+24/03/22,Vistara,UK,812,9:45,Bangalore,14h 05m,1-stop,23:50,Mumbai,6568,economy,60
+24/03/22,Vistara,UK,820,17:50,Bangalore,14h 05m,1-stop,7:55,Mumbai,6568,economy,61
+24/03/22,Vistara,UK,814,21:10,Bangalore,14h 25m,1-stop,11:35,Mumbai,6568,economy,62
+24/03/22,Vistara,UK,808,8:00,Bangalore,14h 50m,1-stop,22:50,Mumbai,6568,economy,63
+24/03/22,GO FIRST,G8,118,21:55,Bangalore,06h 20m,1-stop,4:15,Mumbai,6389,economy,64
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,08h 15m,1-stop,15:35,Mumbai,6389,economy,65
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,09h 15m,1-stop,16:35,Mumbai,6389,economy,66
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,09h 55m,1-stop,17:15,Mumbai,6389,economy,67
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,10h 15m,1-stop,17:35,Mumbai,6389,economy,68
+24/03/22,GO FIRST,G8,118,21:55,Bangalore,11h 15m,1-stop,9:10,Mumbai,6389,economy,69
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,11h 45m,1-stop,19:05,Mumbai,6389,economy,70
+24/03/22,GO FIRST,G8,118,21:55,Bangalore,12h 15m,1-stop,10:10,Mumbai,6389,economy,71
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,13h 50m,1-stop,21:10,Mumbai,6389,economy,72
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,14h 35m,1-stop,21:55,Mumbai,6389,economy,73
+24/03/22,GO FIRST,G8,118,21:55,Bangalore,14h 55m,1-stop,12:50,Mumbai,6389,economy,74
+24/03/22,GO FIRST,G8,116,7:20,Bangalore,15h 55m,1-stop,23:15,Mumbai,6389,economy,75
+24/03/22,Air India,AI,804,6:10,Bangalore,06h 40m,1-stop,12:50,Mumbai,6578,economy,76
+24/03/22,Air India,AI,501,13:20,Bangalore,06h 40m,1-stop,20:00,Mumbai,6578,economy,77
+24/03/22,Air India,AI,501,13:20,Bangalore,07h 55m,1-stop,21:15,Mumbai,6578,economy,78
+24/03/22,Air India,AI,501,13:20,Bangalore,08h 15m,1-stop,21:35,Mumbai,6578,economy,79
+24/03/22,Air India,AI,501,13:20,Bangalore,08h 50m,1-stop,22:10,Mumbai,6578,economy,80
+24/03/22,Air India,AI,804,6:10,Bangalore,11h 50m,1-stop,18:00,Mumbai,6578,economy,81
+24/03/22,Air India,AI,808,21:00,Bangalore,12h 05m,1-stop,9:05,Mumbai,6578,economy,82
+24/03/22,Air India,AI,808,21:00,Bangalore,13h 10m,1-stop,10:10,Mumbai,6578,economy,83
+24/03/22,Air India,AI,804,6:10,Bangalore,13h 50m,1-stop,20:00,Mumbai,6578,economy,84
+24/03/22,Air India,AI,808,21:00,Bangalore,14h 15m,1-stop,11:15,Mumbai,6578,economy,85
+24/03/22,Air India,AI,804,6:10,Bangalore,15h 05m,1-stop,21:15,Mumbai,6578,economy,86
+24/03/22,Air India,AI,804,6:10,Bangalore,15h 25m,1-stop,21:35,Mumbai,6578,economy,87
+24/03/22,Air India,AI,808,21:00,Bangalore,15h 50m,1-stop,12:50,Mumbai,6578,economy,88
+24/03/22,Air India,AI,804,6:10,Bangalore,16h 00m,1-stop,22:10,Mumbai,6578,economy,89
+24/03/22,Vistara,UK,867,12:45,Bangalore,26h 00m,1-stop,14:45,Mumbai,7206,economy,90
+24/03/22,Vistara,UK,816,11:30,Bangalore,08h 35m,1-stop,20:05,Mumbai,7212,economy,91
+24/03/22,Vistara,UK,816,11:30,Bangalore,09h 45m,1-stop,21:15,Mumbai,7212,economy,92
+24/03/22,Vistara,UK,812,9:45,Bangalore,10h 20m,1-stop,20:05,Mumbai,7212,economy,93
+24/03/22,Vistara,UK,812,9:45,Bangalore,11h 30m,1-stop,21:15,Mumbai,7212,economy,94
+24/03/22,Vistara,UK,808,8:00,Bangalore,12h 05m,1-stop,20:05,Mumbai,7212,economy,95
+24/03/22,Vistara,UK,814,21:10,Bangalore,12h 35m,1-stop,9:45,Mumbai,7212,economy,96
+24/03/22,Vistara,UK,810,7:00,Bangalore,13h 05m,1-stop,20:05,Mumbai,7212,economy,97
+24/03/22,Vistara,UK,808,8:00,Bangalore,13h 15m,1-stop,21:15,Mumbai,7212,economy,98
+24/03/22,Vistara,UK,818,19:40,Bangalore,14h 05m,1-stop,9:45,Mumbai,7212,economy,99
+24/03/22,Vistara,UK,810,7:00,Bangalore,14h 15m,1-stop,21:15,Mumbai,7212,economy,100
+24/03/22,Vistara,UK,802,18:50,Bangalore,14h 55m,1-stop,9:45,Mumbai,7212,economy,101
+24/03/22,GO FIRST,G8,790,14:00,Bangalore,06h 20m,1-stop,20:20,Mumbai,6863,economy,102
+24/03/22,GO FIRST,G8,791,20:00,Bangalore,11h 45m,1-stop,7:45,Mumbai,6863,economy,103
+24/03/22,GO FIRST,G8,7559,15:30,Bangalore,16h 15m,1-stop,7:45,Mumbai,7317,economy,104
+24/03/22,Vistara,UK,657,11:30,Bangalore,08h 35m,1-stop,20:05,Mumbai,8117,economy,105
+25/03/22,Vistara,UK,858,6:40,Bangalore,01h 35m,1-stop,8:15,Mumbai,2150,economy,106
+25/03/22,Vistara,UK,846,8:30,Bangalore,01h 45m,1-stop,10:15,Mumbai,2150,economy,107
+25/03/22,Vistara,UK,864,19:00,Bangalore,01h 45m,1-stop,20:45,Mumbai,2150,economy,108
+25/03/22,Vistara,UK,866,21:40,Bangalore,01h 45m,1-stop,23:25,Mumbai,2150,economy,109
+25/03/22,Vistara,UK,854,18:25,Bangalore,01h 50m,1-stop,20:15,Mumbai,2150,economy,110
+25/03/22,Vistara,UK,852,9:30,Bangalore,01h 55m,1-stop,11:25,Mumbai,2150,economy,111
+25/03/22,Vistara,UK,850,19:55,Bangalore,01h 55m,1-stop,21:50,Mumbai,2150,economy,112
+25/03/22,GO FIRST,G8,385,5:45,Bangalore,01h 35m,1-stop,7:20,Mumbai,2201,economy,113
+25/03/22,Indigo,6E,6464,4:30,Bangalore,01h 40m,1-stop,6:10,Mumbai,2201,economy,114
+25/03/22,AirAsia,I5,941,5:35,Bangalore,01h 40m,1-stop,7:15,Mumbai,2201,economy,115
+25/03/22,GO FIRST,G8,395,8:10,Bangalore,01h 40m,1-stop,9:50,Mumbai,2201,economy,116
+25/03/22,GO FIRST,G8,7547,10:00,Bangalore,01h 40m,1-stop,11:40,Mumbai,2201,economy,117
+25/03/22,GO FIRST,G8,7548,19:00,Bangalore,01h 40m,1-stop,20:40,Mumbai,2201,economy,118
+25/03/22,AirAsia,I5,1561,18:50,Bangalore,01h 45m,1-stop,20:35,Mumbai,2201,economy,119
+25/03/22,Indigo,6E,5365,7:00,Bangalore,01h 50m,1-stop,8:50,Mumbai,2201,economy,120
+25/03/22,Indigo,6E,5389,18:00,Bangalore,01h 50m,1-stop,19:50,Mumbai,2201,economy,121
+25/03/22,GO FIRST,G8,320,20:00,Bangalore,01h 50m,1-stop,21:50,Mumbai,2201,economy,122
+25/03/22,AirAsia,I5,339,22:45,Bangalore,01h 50m,1-stop,0:35,Mumbai,2201,economy,123
+25/03/22,GO FIRST,G8,399,22:00,Bangalore,01h 55m,1-stop,23:55,Mumbai,2201,economy,124
+25/03/22,Indigo,6E,5344,22:40,Bangalore,01h 55m,1-stop,0:35,Mumbai,2201,economy,125
+25/03/22,Indigo,6E,5203,19:35,Bangalore,02h 00m,1-stop,21:35,Mumbai,2201,economy,126
+25/03/22,Indigo,6E,332,21:15,Bangalore,02h 00m,1-stop,23:15,Mumbai,2201,economy,127
+25/03/22,Indigo,6E,6345,12:45,Bangalore,05h 00m,1-stop,17:45,Mumbai,2201,economy,128
+25/03/22,Indigo,6E,113,9:50,Bangalore,05h 50m,1-stop,15:40,Mumbai,2201,economy,129
+25/03/22,Indigo,6E,6445,5:50,Bangalore,06h 15m,1-stop,12:05,Mumbai,2201,economy,130
+25/03/22,Indigo,6E,841,14:50,Bangalore,07h 20m,1-stop,22:10,Mumbai,2201,economy,131
+25/03/22,Air India,AI,640,6:45,Bangalore,01h 50m,1-stop,8:35,Mumbai,2208,economy,132
+25/03/22,Air India,AI,610,19:10,Bangalore,01h 55m,1-stop,21:05,Mumbai,2208,economy,133
+25/03/22,AirAsia,I5,1782,20:45,Bangalore,05h 40m,1-stop,2:25,Mumbai,2203,economy,134
+25/03/22,AirAsia,I5,722,0:30,Bangalore,06h 05m,1-stop,6:35,Mumbai,2203,economy,135
+25/03/22,AirAsia,I5,1454,13:15,Bangalore,06h 20m,1-stop,19:35,Mumbai,2203,economy,136
+25/03/22,AirAsia,I5,1622,12:55,Bangalore,06h 40m,1-stop,19:35,Mumbai,2203,economy,137
+25/03/22,AirAsia,I5,749,22:25,Bangalore,08h 10m,1-stop,6:35,Mumbai,2203,economy,138
+25/03/22,AirAsia,I5,1782,20:45,Bangalore,10h 55m,1-stop,7:40,Mumbai,2203,economy,139
+25/03/22,AirAsia,I5,996,19:25,Bangalore,11h 10m,1-stop,6:35,Mumbai,2203,economy,140
+25/03/22,AirAsia,I5,1451,5:40,Bangalore,13h 55m,1-stop,19:35,Mumbai,2203,economy,141
+25/03/22,Indigo,6E,295,16:50,Bangalore,01h 45m,1-stop,18:35,Mumbai,2309,economy,142
+25/03/22,Indigo,6E,5323,8:05,Bangalore,01h 50m,1-stop,9:55,Mumbai,2309,economy,143
+25/03/22,Indigo,6E,5399,12:40,Bangalore,01h 50m,1-stop,14:30,Mumbai,2309,economy,144
+25/03/22,Indigo,6E,6017,18:15,Bangalore,06h 05m,1-stop,0:20,Mumbai,3012,economy,145
+25/03/22,Indigo,6E,6257,6:10,Bangalore,03h 55m,1-stop,10:05,Mumbai,3153,economy,146
+25/03/22,Indigo,6E,638,19:20,Bangalore,04h 05m,1-stop,23:25,Mumbai,3153,economy,147
+25/03/22,Indigo,6E,6212,10:55,Bangalore,04h 10m,1-stop,15:05,Mumbai,3153,economy,148
+25/03/22,Indigo,6E,131,7:20,Bangalore,04h 15m,1-stop,11:35,Mumbai,3153,economy,149
+25/03/22,Indigo,6E,6067,16:20,Bangalore,04h 25m,1-stop,20:45,Mumbai,3153,economy,150
+25/03/22,Indigo,6E,841,14:50,Bangalore,04h 55m,1-stop,19:45,Mumbai,3153,economy,151
+25/03/22,Indigo,6E,484,7:10,Bangalore,05h 05m,1-stop,12:15,Mumbai,3153,economy,152
+25/03/22,Indigo,6E,379,9:40,Bangalore,05h 05m,1-stop,14:45,Mumbai,3153,economy,153
+25/03/22,Indigo,6E,541,9:20,Bangalore,05h 45m,1-stop,15:05,Mumbai,3153,economy,154
+25/03/22,Indigo,6E,841,14:50,Bangalore,05h 55m,1-stop,20:45,Mumbai,3153,economy,155
+25/03/22,Indigo,6E,6257,6:10,Bangalore,06h 05m,1-stop,12:15,Mumbai,3153,economy,156
+25/03/22,Indigo,6E,6491,13:05,Bangalore,06h 10m,1-stop,19:15,Mumbai,3153,economy,157
+25/03/22,Indigo,6E,807,9:50,Bangalore,06h 50m,1-stop,16:40,Mumbai,3153,economy,158
+25/03/22,Indigo,6E,6345,12:45,Bangalore,06h 55m,1-stop,19:40,Mumbai,3153,economy,159
+25/03/22,Indigo,6E,6067,16:20,Bangalore,07h 05m,1-stop,23:25,Mumbai,3153,economy,160
+25/03/22,Indigo,6E,309,19:50,Bangalore,07h 05m,1-stop,2:55,Mumbai,3153,economy,161
+25/03/22,Indigo,6E,886,9:20,Bangalore,07h 15m,1-stop,16:35,Mumbai,3153,economy,162
+25/03/22,Indigo,6E,131,7:20,Bangalore,07h 25m,1-stop,14:45,Mumbai,3153,economy,163
+25/03/22,Indigo,6E,7227,6:05,Bangalore,07h 40m,1-stop,13:45,Mumbai,3153,economy,164
+25/03/22,Indigo,6E,6491,13:05,Bangalore,07h 40m,1-stop,20:45,Mumbai,3153,economy,165
+25/03/22,Indigo,6E,357,22:55,Bangalore,07h 40m,1-stop,6:35,Mumbai,3153,economy,166
+25/03/22,AirAsia,I5,972,16:25,Bangalore,10h 00m,1-stop,2:25,Mumbai,3385,economy,167
+25/03/22,AirAsia,I5,741,11:20,Bangalore,10h 55m,1-stop,22:15,Mumbai,3385,economy,168
+25/03/22,AirAsia,I5,972,16:25,Bangalore,15h 15m,1-stop,7:40,Mumbai,3385,economy,169
+25/03/22,AirAsia,I5,1528,6:10,Bangalore,16h 05m,1-stop,22:15,Mumbai,3385,economy,170
+25/03/22,Vistara,UK,867,12:45,Bangalore,26h 00m,1-stop,14:45,Mumbai,4007,economy,171
+25/03/22,Air India,AI,9517,18:50,Bangalore,05h 05m,1-stop,23:55,Mumbai,3709,economy,172
+25/03/22,Indigo,6E,309,19:50,Bangalore,04h 50m,1-stop,0:40,Mumbai,3957,economy,173
+25/03/22,Indigo,6E,161,13:35,Bangalore,06h 05m,1-stop,19:40,Mumbai,3957,economy,174
+25/03/22,Indigo,6E,806,17:10,Bangalore,07h 30m,1-stop,0:40,Mumbai,3957,economy,175
+25/03/22,Air India,AI,9547,19:00,Bangalore,13h 20m,1-stop,8:20,Mumbai,3961,economy,176
+25/03/22,Air India,AI,9547,19:00,Bangalore,21h 35m,1-stop,16:35,Mumbai,3961,economy,177
+25/03/22,SpiceJet,SG,3027,5:45,Bangalore,09h 00m,1-stop,14:45,Mumbai,3990,economy,178
+25/03/22,SpiceJet,SG,3027,5:45,Bangalore,24h 55m,1-stop,6:40,Mumbai,3990,economy,179
+25/03/22,Air India,AI,9505,9:00,Bangalore,14h 05m,1-stop,23:05,Mumbai,4027,economy,180
+25/03/22,GO FIRST,G8,285,15:45,Bangalore,03h 55m,1-stop,19:40,Mumbai,4096,economy,181
+25/03/22,GO FIRST,G8,285,15:45,Bangalore,09h 35m,1-stop,1:20,Mumbai,4096,economy,182
+25/03/22,Indigo,6E,161,13:35,Bangalore,04h 10m,1-stop,17:45,Mumbai,4171,economy,183
+25/03/22,SpiceJet,SG,3027,5:45,Bangalore,13h 05m,1-stop,18:50,Mumbai,4193,economy,184
+25/03/22,Air India,AI,9547,19:00,Bangalore,05h 10m,1-stop,0:10,Mumbai,4276,economy,185
+25/03/22,GO FIRST,G8,812,22:15,Bangalore,13h 50m,1-stop,12:05,Mumbai,4299,economy,186
+25/03/22,GO FIRST,G8,803,18:50,Bangalore,07h 10m,1-stop,2:00,Mumbai,4354,economy,187
+25/03/22,GO FIRST,G8,803,18:50,Bangalore,13h 50m,1-stop,8:40,Mumbai,4354,economy,188
+25/03/22,Vistara,UK,893,19:55,Bangalore,03h 05m,1-stop,23:00,Mumbai,4792,economy,189
+25/03/22,Vistara,UK,897,7:55,Bangalore,06h 35m,1-stop,14:30,Mumbai,4792,economy,190
+25/03/22,Vistara,UK,893,19:55,Bangalore,14h 05m,1-stop,10:00,Mumbai,4792,economy,191
+25/03/22,Vistara,UK,897,7:55,Bangalore,15h 05m,1-stop,23:00,Mumbai,4792,economy,192
+25/03/22,Vistara,UK,893,19:55,Bangalore,18h 35m,1-stop,14:30,Mumbai,4792,economy,193
+25/03/22,Vistara,UK,897,7:55,Bangalore,26h 05m,1-stop,10:00,Mumbai,4792,economy,194
+25/03/22,GO FIRST,G8,801,5:30,Bangalore,14h 45m,1-stop,20:15,Mumbai,4663,economy,195
+25/03/22,GO FIRST,G8,805,8:15,Bangalore,15h 15m,1-stop,23:30,Mumbai,4807,economy,196
+25/03/22,Air India,AI,523,6:45,Bangalore,09h 05m,1-stop,15:50,Mumbai,4946,economy,197
+25/03/22,Air India,AI,738,11:50,Bangalore,05h 35m,1-stop,17:25,Mumbai,5290,economy,198
+25/03/22,Air India,AI,9517,18:50,Bangalore,18h 00m,1-stop,12:50,Mumbai,5771,economy,199
+25/03/22,Air India,AI,9517,18:50,Bangalore,23h 10m,1-stop,18:00,Mumbai,5771,economy,200
+25/03/22,Air India,AI,9517,18:50,Bangalore,25h 10m,1-stop,20:00,Mumbai,5771,economy,201
+25/03/22,Air India,AI,9517,18:50,Bangalore,26h 25m,1-stop,21:15,Mumbai,5771,economy,202
+25/03/22,Air India,AI,9517,18:50,Bangalore,26h 45m,1-stop,21:35,Mumbai,5771,economy,203
+25/03/22,Air India,AI,9517,18:50,Bangalore,27h 20m,1-stop,22:10,Mumbai,5771,economy,204
+25/03/22,Air India,AI,748,2:40,Bangalore,09h 45m,1-stop,12:25,Mumbai,5850,economy,205
+25/03/22,Air India,AI,748,2:40,Bangalore,15h 10m,1-stop,17:50,Mumbai,5850,economy,206
+25/03/22,Vistara,UK,657,11:30,Bangalore,10h 05m,1-stop,21:35,Mumbai,6332,economy,207
+25/03/22,Air India,AI,505,10:25,Bangalore,07h 35m,1-stop,18:00,Mumbai,6158,economy,208
+25/03/22,Air India,AI,505,10:25,Bangalore,09h 35m,1-stop,20:00,Mumbai,6158,economy,209
+25/03/22,Air India,AI,505,10:25,Bangalore,10h 50m,1-stop,21:15,Mumbai,6158,economy,210
+25/03/22,Air India,AI,505,10:25,Bangalore,11h 10m,1-stop,21:35,Mumbai,6158,economy,211
+25/03/22,Air India,AI,505,10:25,Bangalore,11h 45m,1-stop,22:10,Mumbai,6158,economy,212
+25/03/22,Air India,AI,503,17:50,Bangalore,15h 15m,1-stop,9:05,Mumbai,6158,economy,213
+25/03/22,Air India,AI,503,17:50,Bangalore,16h 20m,1-stop,10:10,Mumbai,6158,economy,214
+25/03/22,Air India,AI,503,17:50,Bangalore,17h 25m,1-stop,11:15,Mumbai,6158,economy,215
+25/03/22,Air India,AI,503,17:50,Bangalore,19h 00m,1-stop,12:50,Mumbai,6158,economy,216
+25/03/22,Air India,AI,505,10:25,Bangalore,22h 40m,1-stop,9:05,Mumbai,6158,economy,217
+25/03/22,Air India,AI,505,10:25,Bangalore,23h 45m,1-stop,10:10,Mumbai,6158,economy,218
+25/03/22,Air India,AI,503,17:50,Bangalore,24h 10m,1-stop,18:00,Mumbai,6158,economy,219
+25/03/22,Air India,AI,503,17:50,Bangalore,26h 10m,1-stop,20:00,Mumbai,6158,economy,220
+25/03/22,Air India,AI,748,2:40,Bangalore,17h 25m,1-stop,20:05,Mumbai,6192,economy,221
+25/03/22,GO FIRST,G8,808,14:30,Bangalore,05h 50m,1-stop,20:20,Mumbai,6199,economy,222
+25/03/22,Vistara,UK,808,8:00,Bangalore,06h 00m,1-stop,14:00,Mumbai,6568,economy,223
+25/03/22,Vistara,UK,820,17:50,Bangalore,06h 00m,1-stop,23:50,Mumbai,6568,economy,224
+25/03/22,Vistara,UK,816,11:30,Bangalore,06h 10m,1-stop,17:40,Mumbai,6568,economy,225
+25/03/22,Vistara,UK,812,9:45,Bangalore,06h 45m,1-stop,16:30,Mumbai,6568,economy,226
+25/03/22,Vistara,UK,810,7:00,Bangalore,07h 00m,1-stop,14:00,Mumbai,6568,economy,227
+25/03/22,Vistara,UK,808,8:00,Bangalore,07h 00m,1-stop,15:00,Mumbai,6568,economy,228
+25/03/22,Vistara,UK,816,11:30,Bangalore,07h 35m,1-stop,19:05,Mumbai,6568,economy,229
+25/03/22,Vistara,UK,812,9:45,Bangalore,07h 55m,1-stop,17:40,Mumbai,6568,economy,230
+25/03/22,Vistara,UK,810,7:00,Bangalore,08h 00m,1-stop,15:00,Mumbai,6568,economy,231
+25/03/22,Vistara,UK,808,8:00,Bangalore,08h 30m,1-stop,16:30,Mumbai,6568,economy,232
+25/03/22,Vistara,UK,812,9:45,Bangalore,09h 20m,1-stop,19:05,Mumbai,6568,economy,233
+25/03/22,Vistara,UK,810,7:00,Bangalore,09h 30m,1-stop,16:30,Mumbai,6568,economy,234
+25/03/22,Vistara,UK,808,8:00,Bangalore,09h 40m,1-stop,17:40,Mumbai,6568,economy,235
+25/03/22,Vistara,UK,816,11:30,Bangalore,10h 30m,1-stop,22:00,Mumbai,6568,economy,236
+25/03/22,Vistara,UK,810,7:00,Bangalore,10h 40m,1-stop,17:40,Mumbai,6568,economy,237
+25/03/22,Vistara,UK,814,21:10,Bangalore,10h 45m,1-stop,7:55,Mumbai,6568,economy,238
+25/03/22,Vistara,UK,808,8:00,Bangalore,11h 05m,1-stop,19:05,Mumbai,6568,economy,239
+25/03/22,Vistara,UK,816,11:30,Bangalore,11h 20m,1-stop,22:50,Mumbai,6568,economy,240
+25/03/22,Vistara,UK,810,7:00,Bangalore,12h 05m,1-stop,19:05,Mumbai,6568,economy,241
+25/03/22,Vistara,UK,812,9:45,Bangalore,12h 15m,1-stop,22:00,Mumbai,6568,economy,242
+25/03/22,Vistara,UK,818,19:40,Bangalore,12h 15m,1-stop,7:55,Mumbai,6568,economy,243
+25/03/22,Vistara,UK,816,11:30,Bangalore,12h 20m,1-stop,23:50,Mumbai,6568,economy,244
+25/03/22,Vistara,UK,812,9:45,Bangalore,13h 05m,1-stop,22:50,Mumbai,6568,economy,245
+25/03/22,Vistara,UK,802,18:50,Bangalore,13h 05m,1-stop,7:55,Mumbai,6568,economy,246
+25/03/22,Vistara,UK,808,8:00,Bangalore,14h 00m,1-stop,22:00,Mumbai,6568,economy,247
+25/03/22,Vistara,UK,814,21:10,Bangalore,14h 00m,1-stop,11:10,Mumbai,6568,economy,248
+25/03/22,Vistara,UK,812,9:45,Bangalore,14h 05m,1-stop,23:50,Mumbai,6568,economy,249
+25/03/22,Vistara,UK,820,17:50,Bangalore,14h 05m,1-stop,7:55,Mumbai,6568,economy,250
+25/03/22,Vistara,UK,814,21:10,Bangalore,14h 25m,1-stop,11:35,Mumbai,6568,economy,251

@@ -5,14 +5,20 @@ For Fight Data Analysis
 
 # Team info
 Course code: COSC2634, 2022A
+
 Group number: Group7
+
 Mentor: Dr Shan Chen
 
 Team member:
 Lee Gain, s3878170
+
 Phan Do Ngoc Linh, s3881557
+
 Tran Hoang Phuc, s3911244
+
 Nguyen Dang Nhat, s3878292
+
 Vo Ngoc Diem Tien s3911365
 
 

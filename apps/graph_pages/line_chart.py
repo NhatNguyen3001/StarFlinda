@@ -30,7 +30,7 @@ st.markdown(f'*Available Results: {number_of_result}*')
 
 # GRAPH
 
-chart = alt.Chart(df, title="Business Class").mark_line().encode(
+chart = alt.Chart(df, title="Airline").mark_line().encode(
     x='ticket_id',
     y='price'
 )

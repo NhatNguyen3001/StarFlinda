@@ -1,12 +1,8 @@
-from ast import Try
 import streamlit as st
 from PIL import Image
-
+from prog import make_email
 
 # functions
-def send_email(f_name, l_name, email, inquiry_title, detail):
-    return 0
-
 def app():
     with st.container():
         # Top part
@@ -16,13 +12,13 @@ def app():
             with st.form(key="contact_form"):  # user input col
                 st.header("Contact Us")
                 f_name = st.text_input("FIRST NAME", max_chars=20,
-                                    help="Please enter your first name")
+                                        help="Please enter your first name")
                 l_name = st.text_input("LAST NAME", max_chars=20,
-                                    help="Please enter your last name")
+                                        help="Please enter your last name")
                 email = st.text_input("EMAIL ADDRESS", max_chars=20,
-                                    help="Please enter your email address (ex)abc123.gmail.com")
-                inquiry_title = st.text_input(
-                    "INQUIRY TITLE", max_chars=50, help="Please enter inquiry title")
+                                        help="Please enter your email address (ex)abc123.gmail.com")
+                inquiry_title = st.text_input("INQUIRY TITLE", max_chars=50, 
+                                            help="Please enter inquiry title")
                 detail = st.text_area("DETAILS", height=5, max_chars=300,
                                     help="Please enter inquiry details")
                 submit_button = st.form_submit_button(label="Submit")
@@ -31,7 +27,7 @@ def app():
             if submit_button:
                 st.success(
                     "Thank you for getting in touch! We appreciate you contacting us.")
-                send_email(f_name, l_name, email, inquiry_title, detail)
+                make_email.send_email(f_name, l_name, email, inquiry_title, detail)
 
         with st_col:  # explaination col
             st.header("How Can We Help?")

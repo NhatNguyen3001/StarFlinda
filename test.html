@@ -1,0 +1,56 @@
+<html>
+    <style>
+        body {background-color:#dbdbdb30;
+              padding: 3%;
+              margin: 2% 0%;}
+        h3 {color: rgb(50, 80, 104);}
+        h3 + p {font-style: italic;
+                color: rgb(68, 123, 168);}
+        
+        .user_inquiry {background-color:#f6f6cacd;
+                       padding: 3%;
+                       border-radius: 5%;}
+        h5 + p {font-size: 10pt;
+                font-style: italic;}
+        .contact {display: flex;}
+    </style>
+    <body>
+    
+    <h2>User request "{inquiry_title}" has been received</h2>
+    <div class = "user_inquiry">
+        <h3>Inquiry Info:</h3>
+        <h4>Title: {inquiry_title}</h4>
+        <h4>Content:</h4>
+        <p>
+            {detail}
+        </p>       
+    </div>
+    <div class = "user_info">
+        <h3>User info:</h3>
+        <h4>Name: {f_name} {l_name}</h4>
+        <h4>Email address: {user_email}</h4>   
+    </div>
+    <div class = "contact">
+        <div>
+            <h5>Contact:</h5>
+            <p>
+                Phone number: +0123 4567 8910<br>
+                Email: support_team@StaFiIndia.com<br>
+                Addreess: 457-89, 254 Street, District 7<br>
+            </p>
+        </div>
+        <div>
+            <h5>Working hours</h5>
+            <p>
+                Monday: 9 AM - 5 PM <br>
+                Tuesday: 9 AM - 5 PM <br>
+                Wednesday: 9 AM - 5 PM <br>
+                Thursday: 9 AM - 5 PM <br>
+                Friday: 9 AM - 5 PM <br>
+                Saturday: 10 AM - 5 PM <br>
+                Sunday: 10 AM - 3 PM <br>
+            </p>
+        </div>
+    </div>
+    </body>
+</html>

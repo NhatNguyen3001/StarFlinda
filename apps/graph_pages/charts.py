@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from turtle import title
+import matplotlib.pyplot as plt
 
 # Hide menu
 hide_menu = """
@@ -18,11 +20,11 @@ st.markdown(
     unsafe_allow_html=True)
 
 # Sidebar
-##Button css
+# Button css
 buttoncss = st.markdown("""
 <style>
 div.stButton > button:first-child {
-    width:705px;
+    width:700px;
     height:50px;
     justify-content: left;
     font-family: "IBM Plex Sans", sans-serif;
@@ -30,8 +32,8 @@ div.stButton > button:first-child {
 }
 </style>""", unsafe_allow_html=True)
 
-#Function
-##CSV file
+# Function
+# CSV file
 csv_url = 'https://raw.githubusercontent.com/Lee-GaIn/-BIIT-Project/main/lib/data/data.csv'
 df = pd.read_csv(csv_url)
 
@@ -61,8 +63,37 @@ duration = d_expander.slider(
     'Select your duration',
     min_value=2150, max_value=93200, step=1)
 
+# Pie chart, where the slices will be ordered and plotted counter-clockwise:
+labels = 'Vistara', 'SpiceJet', 'Indigo', 'GO FIRST', 'Air India', 'AirAsia'
+sizes = [42.5, 1.3, 9.6, 13.5, 30.2, 2.9]
+explode = (0.1, 0, 0, 0, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
+
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
+         startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+ax1.set_title('Economy Class')
+
+
+labels2 = 'Vistara', 'Air India'
+sizes2 = [54.2, 45.8]
+
+fig2, ax2 = plt.subplots()
+ax2.pie(sizes2, labels=labels2, autopct='%1.1f%%', startangle=90)
+ax2.axis('equal')
+ax2.set_title('Business Class')
+
 ##Class
-c_expander = st.button("Class")
+pie_chart = st.button("Class")
+
+if pie_chart:
+    economy = st.checkbox("Economy")
+    business = st.checkbox("Business")
+    if economy:
+        st.pyplot(fig1)
+    else:
+        st.pyplot(fig2)
 
 ##Flight Map
 fm_expander = st.expander("Flight Map")
@@ -76,3 +107,4 @@ st.markdown("""
   <div style="padding-left: 650px; color: #FFFFFF; "> ©All Rights Reserved By STAFLINDA</div>
 </nav>
 """, unsafe_allow_html=True)
+

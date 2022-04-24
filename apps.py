@@ -1,22 +1,23 @@
 from numpy import char
 import streamlit as st
-from app import compare_tickets, contact_us
+from app import compare_tickets, contact_us, homepage, search2
+from app.graph_pages import table, line_chart, charts2, piechart
 from streamlit_option_menu import option_menu
 
 
-
-
 #build webpage
-st.set_page_config(page_title="StaFiIndia", page_icon="✈️", layout="wide")
+
 
 # REF : https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py
 
 # SET NAVIGATION BAR
 with st.sidebar:
-    choose = option_menu("Menu", ["HOME", "ㄴGraph type 0", "ㄴGraph type 2", "ㄴGraph type 3", "ㄴGraph type 4", "ㄴGraph type 5"
-                                        , "DATA SEARCH", "DATA COMPARISION", "CONTACT US"],
-                         icons=['house', 'bar chart', 'bar chart', 'bar chart', 'bar chart', 'bar chart',
-                                'search', 'person lines fill'],
+    choose = option_menu("Menu", ["HOME", "DATA SEARCH", 
+                                    "ㄴTable", "ㄴLine chart", "ㄴBar chart", "ㄴPie chart", "ㄴMap", 
+                                    "DATA COMPARISION", "CONTACT US"],
+                         icons=['house', 'search', 
+                                'bar chart', 'bar chart', 'bar chart', 'bar chart', 'bar chart', 
+                                'person lines fill'],
                          menu_icon="app-indicator", default_index=0,
                          styles={
                             "container": {"padding": "5!important", "background-color": "black"},
@@ -27,20 +28,19 @@ with st.sidebar:
     )
 
 if choose == "HOME":
-    #code for home page
-    compare_tickets.app() #delete
+    homepage.app()
 elif choose == "DATA SEARCH":
-    compare_tickets.app()
+    search2.app()
 #grach pages 
-elif choose ==  "ㄴGraph type 1":
-    compare_tickets.app()
-elif choose ==  "ㄴGraph type 2":
-    compare_tickets.app()
-elif choose ==  "ㄴGraph type 3":
-    compare_tickets.app()
-elif choose ==  "ㄴGraph type 4":
-    compare_tickets.app()
-elif choose ==  "ㄴGraph type 5":
+elif choose ==  "ㄴTable":
+    table.app()
+elif choose ==  "ㄴLine chart":
+    table.app()
+elif choose ==  "ㄴBar chart":
+    charts2.app()
+elif choose ==  "ㄴPie chart":
+    piechart.app()
+elif choose ==  "ㄴMap":
     compare_tickets.app()
 elif choose == "DATA COMPARISION":
     compare_tickets.app()

@@ -25,7 +25,7 @@ def get_data_frame(ticket_id1, ticket_id2):
     CLASS = 12
     TICKET_ID = 13
 
-    with open("lib//data//data.txt") as dataset:
+    with open("lib//data//compare_data.txt") as dataset:
         reader = csv.reader(dataset, delimiter=',')
         next(reader)  # ignore header
         raw_tk1 = []  # raw ticket1 info on csv

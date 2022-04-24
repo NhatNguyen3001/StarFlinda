@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from apps import about_us, compare_tickets, contact_us
+from apps import homepage, compare_tickets, contact_us
 st.set_page_config(page_title="StaFiIndia", page_icon="✈️", layout="wide")
 
 # REF : https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py
@@ -38,6 +38,6 @@ elif choose ==  "ㄴGraph type 5":
 elif choose == "DATA COMPARISION":
     compare_tickets.app()
 elif choose == "ABOUT US":
-    about_us.app()
+    homepage.app()
 elif choose == "CONTACT US":
     contact_us.app()

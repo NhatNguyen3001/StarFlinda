@@ -120,29 +120,32 @@ def find_index(array1, array2, number_input):
     return final_index
 
 
-ch_array = read_ch_code("data.txt")
-num_code = read_num_code("data.txt")
-date = read_date("data.txt")
-airlines = read_airlines("data.txt")
-departure = read_departure("data.txt")
-arrival = read_arrival("data.txt")
-price = read_price("data.txt")
-class_of_flight = read_class("data.txt")
+def app():
+    ch_array = read_ch_code("lib//data//data.txt")
+    num_code = read_num_code("lib//data//data.txt")
+    date = read_date("lib//data//data.txt")
+    airlines = read_airlines("lib//data//data.txt")
+    departure = read_departure("lib//data//data.txt")
+    arrival = read_arrival("lib//data//data.txt")
+    price = read_price("lib//data//data.txt")
+    class_of_flight = read_class("lib//data//data.txt")
 
-departure_input = st.selectbox("Select your departure", ("Bangalore", "Delhi",
-                                                         "Kolkata", "Chennai",
-                                                         "Hyderabad", "Mumbai"))
-arrival_input = st.selectbox("Select your arrival", ("Mumbai", "Delhi", "Chennai"))
-class_input = st.selectbox("Select your class", ("economy", "business"))
-price_input = st.slider("Choose the approximately price", min_value=2000, max_value=94000, value=2000, step=1)
-search = st.button("Search", key="option")
+    departure_input = st.selectbox("Select your departure", ("Bangalore", "Delhi",
+                                                            "Kolkata", "Chennai",
+                                                            "Hyderabad", "Mumbai"))
+    arrival_input = st.selectbox("Select your arrival", ("Mumbai", "Delhi", "Chennai"))
+    class_input = st.selectbox("Select your class", ("economy", "business"))
+    price_input = st.slider("Choose the approximately price", min_value=2000, max_value=94000, value=2000, step=1)
+    search = st.button("Search", key="option")
 
-if search:
-    index_keep_1 = [i for i, x in enumerate(departure) if x == departure_input]
-    index_keep_2 = [i for i, x in enumerate(arrival) if x == arrival_input]
-    index_keep_3 = [i for i, x in enumerate(class_of_flight) if x == class_input]
-    index_keep_4 = intersection(index_keep_1, index_keep_2)
-    index_keep_final = intersection(index_keep_4, index_keep_3)
+    index_keep_final = "" #init
+
+    if search:
+        index_keep_1 = [i for i, x in enumerate(departure) if x == departure_input]
+        index_keep_2 = [i for i, x in enumerate(arrival) if x == arrival_input]
+        index_keep_3 = [i for i, x in enumerate(class_of_flight) if x == class_input]
+        index_keep_4 = intersection(index_keep_1, index_keep_2)
+        index_keep_final = intersection(index_keep_4, index_keep_3)
     if len(index_keep_final) == 0:
         st.write("Sorry, there is no result for your search, please try again")
     else:

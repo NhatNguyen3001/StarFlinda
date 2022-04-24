@@ -6,30 +6,32 @@ import altair as alt
 import plotly.express as px
 from PIL import Image
 
-st.title("Table")
+def app():
 
-# LOAD DATA
+    st.title("Table")
 
-data = pd.read_csv('data.csv', index_col=0)
+    # LOAD DATA
 
-gb = GridOptionsBuilder.from_dataframe(data)
-gb.configure_pagination(paginationAutoPageSize=True) #Add pagination
-gb.configure_side_bar() #Add a sidebar
-gb.configure_selection('multiple', use_checkbox=True, groupSelectsChildren="Group checkbox select children") #Enable multi-row selection
-gridOptions = gb.build()
+    data = pd.read_csv("lib//data//data.csv", index_col=0)
 
-grid_response = AgGrid(
-    data,
-    gridOptions=gridOptions,
-    data_return_mode='AS_INPUT',
-    update_mode='MODEL_CHANGED',
-    fit_columns_on_grid_load=False,
-    enable_enterprise_modules=True,
-    height=500,
-    width=1000,
-    reload_data=True
-)
+    gb = GridOptionsBuilder.from_dataframe(data)
+    gb.configure_pagination(paginationAutoPageSize=True) #Add pagination
+    gb.configure_side_bar() #Add a sidebar
+    gb.configure_selection('multiple', use_checkbox=True, groupSelectsChildren="Group checkbox select children") #Enable multi-row selection
+    gridOptions = gb.build()
 
-data = grid_response['data']
-selected = grid_response['selected_rows']
-df = pd.DataFrame(selected)
+    grid_response = AgGrid(
+        data,
+        gridOptions=gridOptions,
+        data_return_mode='AS_INPUT',
+        update_mode='MODEL_CHANGED',
+        fit_columns_on_grid_load=False,
+        enable_enterprise_modules=True,
+        height=500,
+        width=1000,
+        reload_data=True
+    )
+
+    data = grid_response['data']
+    selected = grid_response['selected_rows']
+    df = pd.DataFrame(selected)

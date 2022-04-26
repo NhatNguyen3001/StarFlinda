@@ -1,60 +1,60 @@
 date,airline,ch_code,num_code,dep_time,from,time_taken,stop,arr_time,to,price,class,ticket_id
-01/03/2022,Air India,AI,505,10:25,Bangalore,11h 45m,1-stop,22:10,Mumbai,"6,158",economy,212
-01/03/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"43,910",business,459
-01/03/2022,Air India,AI,505,10:25,Bangalore,02h 35m,non-stop ,13:00,Delhi,"32,923",business,318
-01/03/2022,Air India,AI,507,6:30,Bangalore,16h 30m,1-stop,23:00,Delhi,"35,554",business,402
-02/03/2022,Air India,AI,775,20:45,Kolkata,12h 10m,1-stop,8:55,Delhi,"57,939",business,472
-02/03/2022,Air India,AI,526,19:00,Kolkata,23h 30m,1-stop,18:30,Delhi,"43,910",business,381
-02/03/2022,Vistara,UK,876,21:35,Hyderabad,10h 30m,1-stop,8:05,Delhi,"39,555",business,342
-02/03/2022,Vistara,UK,814,21:10,Bangalore,12h 35m,1-stop,9:45,Mumbai,"7,212",economy,96
-02/03/2022,Air India,AI,501,13:20,Bangalore,08h 50m,1-stop,22:10,Mumbai,"6,578",economy,80
+03/01/2022,Air India,AI,505,10:25,Bangalore,11h 45m,1-stop,22:10,Mumbai,"6,158",economy,212
+03/01/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"43,910",business,459
+03/01/2022,Air India,AI,505,10:25,Bangalore,02h 35m,non-stop ,13:00,Delhi,"32,923",business,318
+03/01/2022,Air India,AI,507,6:30,Bangalore,16h 30m,1-stop,23:00,Delhi,"35,554",business,402
+03/02/2022,Air India,AI,775,20:45,Kolkata,12h 10m,1-stop,8:55,Delhi,"57,939",business,472
+03/02/2022,Air India,AI,526,19:00,Kolkata,23h 30m,1-stop,18:30,Delhi,"43,910",business,381
+03/02/2022,Vistara,UK,876,21:35,Hyderabad,10h 30m,1-stop,8:05,Delhi,"39,555",business,342
+03/02/2022,Vistara,UK,814,21:10,Bangalore,12h 35m,1-stop,9:45,Mumbai,"7,212",economy,96
+03/02/2022,Air India,AI,501,13:20,Bangalore,08h 50m,1-stop,22:10,Mumbai,"6,578",economy,80
 03/03/2022,Air India,AI,538,20:20,Chennai,16h 30m,1-stop,12:50,Mumbai,"49,553",business,369
 03/03/2022,Vistara,UK,928,6:30,Mumbai,13h 45m,1-stop,20:15,Chennai,"57,453",business,416
 03/03/2022,Vistara,UK,864,19:00,Bangalore,05h 55m,1-stop,0:55,Delhi,"42,521",business,407
 03/03/2022,Vistara,UK,810,7:00,Bangalore,10h 40m,1-stop,17:40,Mumbai,"6,568",economy,237
 03/03/2022,Air India,AI,503,17:50,Bangalore,24h 10m,1-stop,18:00,Mumbai,"6,158",economy,30
 03/03/2022,GO FIRST,G8,805,8:15,Bangalore,15h 15m,1-stop,23:30,Mumbai,"4,807",economy,5
-04/03/2022,Vistara,UK,816,11:30,Bangalore,11h 20m,1-stop,22:50,Mumbai,"6,568",economy,51
-04/03/2022,GO FIRST,G8,116,7:20,Bangalore,09h 55m,1-stop,17:15,Mumbai,"6,389",economy,67
-05/03/2022,Vistara,UK,816,11:30,Bangalore,12h 20m,1-stop,23:50,Mumbai,"6,568",economy,55
-05/03/2022,Air India,AI,501,13:20,Bangalore,06h 40m,1-stop,20:00,Mumbai,"6,578",economy,77
-05/03/2022,Vistara,UK,874,8:30,Hyderabad,09h 35m,1-stop,18:05,Delhi,"51,875",business,399
-06/03/2022,Vistara,UK,876,21:35,Hyderabad,19h 20m,1-stop,16:55,Delhi,"72,774",business,264
-06/03/2022,Air India,AI,9517,18:50,Bangalore,25h 10m,1-stop,20:00,Mumbai,"5,771",economy,201
-06/03/2022,Vistara,UK,902,15:45,Mumbai,07h 00m,1-stop,22:45,Chennai,"61,933",business,377
-07/03/2022,Air India,AI,505,10:25,Bangalore,11h 10m,1-stop,21:35,Mumbai,"6,158",economy,211
-07/03/2022,Air India,AI,516,7:35,Bangalore,06h 15m,1-stop,13:50,Delhi,"35,554",business,337
-07/03/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"56,206",business,261
-07/03/2022,Vistara,UK,846,8:30,Bangalore,06h 00m,1-stop,14:30,Delhi,"42,521",business,442
-07/03/2022,Air India,AI,624,19:00,Delhi,02h 15m,non-stop ,21:15,Mumbai,"36,995",business,273
-07/03/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"43,910",business,440
-08/03/2022,Indigo,6E,5399,12:40,Bangalore,01h 50m,1-stop,14:30,Mumbai,"2,309",economy,144
-09/03/2022,Vistara,UK,832,6:55,Chennai,10h 45m,1-stop,17:40,Mumbai,"61,873",business,280
-09/03/2022,GO FIRST,G8,116,7:20,Bangalore,13h 50m,1-stop,21:10,Mumbai,"6,389",economy,72
-09/03/2022,Vistara,UK,814,21:10,Bangalore,14h 00m,1-stop,11:10,Mumbai,"6,568",economy,248
-09/03/2022,Air India,AI,539,17:00,Chennai,16h 05m,1-stop,9:05,Mumbai,"49,553",business,418
-09/03/2022,GO FIRST,G8,118,21:55,Bangalore,11h 15m,1-stop,9:10,Mumbai,"6,389",economy,69
-09/03/2022,Vistara,UK,808,8:00,Bangalore,07h 00m,1-stop,15:00,Mumbai,"6,568",economy,228
-09/03/2022,Air India,AI,765,20:45,Kolkata,23h 05m,1-stop,19:50,Delhi,"48,079",business,454
-10/03/2022,Air India,AI,538,20:20,Chennai,21h 40m,1-stop,18:00,Mumbai,"56,943",business,258
-10/03/2022,Vistara,UK,812,9:45,Bangalore,12h 15m,1-stop,22:00,Mumbai,"6,568",economy,242
-10/03/2022,Air India,AI,516,7:35,Bangalore,14h 35m,1-stop,22:10,Mumbai,"5,761",economy,13
-11/03/2022,Vistara,UK,810,7:00,Bangalore,12h 05m,1-stop,19:05,Mumbai,"6,568",economy,241
-11/03/2022,Air India,AI,698,21:50,Hyderabad,22h 40m,1-stop,20:30,Delhi,"39,499",business,490
-11/03/2022,Vistara,UK,850,19:55,Bangalore,05h 00m,1-stop,0:55,Delhi,"42,521",business,313
-11/03/2022,Vistara,UK,876,21:35,Hyderabad,10h 30m,1-stop,8:05,Delhi,"39,555",business,449
-11/03/2022,GO FIRST,G8,790,14:00,Bangalore,06h 20m,1-stop,20:20,Mumbai,"6,863",economy,102
-11/03/2022,GO FIRST,G8,801,5:30,Bangalore,14h 45m,1-stop,20:15,Mumbai,"4,663",economy,195
-11/03/2022,GO FIRST,G8,285,15:45,Bangalore,03h 55m,1-stop,19:40,Mumbai,"4,096",economy,181
-12/03/2022,Vistara,UK,866,21:40,Bangalore,10h 25m,1-stop,8:05,Delhi,"42,521",business,388
-12/03/2022,Vistara,UK,970,8:45,Mumbai,07h 35m,1-stop,16:20,Chennai,"64,173",business,446
-12/03/2022,Vistara,UK,874,8:30,Hyderabad,06h 00m,1-stop,14:30,Delhi,"39,555",business,444
-12/03/2022,Vistara,UK,802,18:50,Bangalore,13h 05m,1-stop,7:55,Mumbai,"6,568",economy,57
-12/03/2022,GO FIRST,G8,791,20:00,Bangalore,11h 45m,1-stop,7:45,Mumbai,"6,863",economy,103
-12/03/2022,Vistara,UK,816,11:30,Bangalore,10h 30m,1-stop,22:00,Mumbai,"6,568",economy,236
-12/03/2022,Vistara,UK,867,12:45,Bangalore,26h 00m,1-stop,14:45,Mumbai,"7,206",economy,90
-12/03/2022,Vistara,UK,706,13:40,Delhi,07h 55m,1-stop,21:35,Mumbai,"36,577",business,328
-12/03/2022,Air India,AI,508,13:05,Hyderabad,07h 30m,1-stop,20:35,Delhi,"44,583",business,434
+03/04/2022,Vistara,UK,816,11:30,Bangalore,11h 20m,1-stop,22:50,Mumbai,"6,568",economy,51
+03/04/2022,GO FIRST,G8,116,7:20,Bangalore,09h 55m,1-stop,17:15,Mumbai,"6,389",economy,67
+03/05/2022,Vistara,UK,816,11:30,Bangalore,12h 20m,1-stop,23:50,Mumbai,"6,568",economy,55
+03/05/2022,Air India,AI,501,13:20,Bangalore,06h 40m,1-stop,20:00,Mumbai,"6,578",economy,77
+03/05/2022,Vistara,UK,874,8:30,Hyderabad,09h 35m,1-stop,18:05,Delhi,"51,875",business,399
+03/06/2022,Vistara,UK,876,21:35,Hyderabad,19h 20m,1-stop,16:55,Delhi,"72,774",business,264
+03/06/2022,Air India,AI,9517,18:50,Bangalore,25h 10m,1-stop,20:00,Mumbai,"5,771",economy,201
+03/06/2022,Vistara,UK,902,15:45,Mumbai,07h 00m,1-stop,22:45,Chennai,"61,933",business,377
+03/07/2022,Air India,AI,505,10:25,Bangalore,11h 10m,1-stop,21:35,Mumbai,"6,158",economy,211
+03/07/2022,Air India,AI,516,7:35,Bangalore,06h 15m,1-stop,13:50,Delhi,"35,554",business,337
+03/07/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"56,206",business,261
+03/07/2022,Vistara,UK,846,8:30,Bangalore,06h 00m,1-stop,14:30,Delhi,"42,521",business,442
+03/07/2022,Air India,AI,624,19:00,Delhi,02h 15m,non-stop ,21:15,Mumbai,"36,995",business,273
+03/07/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"43,910",business,440
+03/08/2022,Indigo,6E,5399,12:40,Bangalore,01h 50m,1-stop,14:30,Mumbai,"2,309",economy,144
+03/09/2022,Vistara,UK,832,6:55,Chennai,10h 45m,1-stop,17:40,Mumbai,"61,873",business,280
+03/09/2022,GO FIRST,G8,116,7:20,Bangalore,13h 50m,1-stop,21:10,Mumbai,"6,389",economy,72
+03/09/2022,Vistara,UK,814,21:10,Bangalore,14h 00m,1-stop,11:10,Mumbai,"6,568",economy,248
+03/09/2022,Air India,AI,539,17:00,Chennai,16h 05m,1-stop,9:05,Mumbai,"49,553",business,418
+03/09/2022,GO FIRST,G8,118,21:55,Bangalore,11h 15m,1-stop,9:10,Mumbai,"6,389",economy,69
+03/09/2022,Vistara,UK,808,8:00,Bangalore,07h 00m,1-stop,15:00,Mumbai,"6,568",economy,228
+03/09/2022,Air India,AI,765,20:45,Kolkata,23h 05m,1-stop,19:50,Delhi,"48,079",business,454
+03/10/2022,Air India,AI,538,20:20,Chennai,21h 40m,1-stop,18:00,Mumbai,"56,943",business,258
+03/10/2022,Vistara,UK,812,9:45,Bangalore,12h 15m,1-stop,22:00,Mumbai,"6,568",economy,242
+03/10/2022,Air India,AI,516,7:35,Bangalore,14h 35m,1-stop,22:10,Mumbai,"5,761",economy,13
+03/11/2022,Vistara,UK,810,7:00,Bangalore,12h 05m,1-stop,19:05,Mumbai,"6,568",economy,241
+03/11/2022,Air India,AI,698,21:50,Hyderabad,22h 40m,1-stop,20:30,Delhi,"39,499",business,490
+03/11/2022,Vistara,UK,850,19:55,Bangalore,05h 00m,1-stop,0:55,Delhi,"42,521",business,313
+03/11/2022,Vistara,UK,876,21:35,Hyderabad,10h 30m,1-stop,8:05,Delhi,"39,555",business,449
+03/11/2022,GO FIRST,G8,790,14:00,Bangalore,06h 20m,1-stop,20:20,Mumbai,"6,863",economy,102
+03/11/2022,GO FIRST,G8,801,5:30,Bangalore,14h 45m,1-stop,20:15,Mumbai,"4,663",economy,195
+03/11/2022,GO FIRST,G8,285,15:45,Bangalore,03h 55m,1-stop,19:40,Mumbai,"4,096",economy,181
+03/12/2022,Vistara,UK,866,21:40,Bangalore,10h 25m,1-stop,8:05,Delhi,"42,521",business,388
+03/12/2022,Vistara,UK,970,8:45,Mumbai,07h 35m,1-stop,16:20,Chennai,"64,173",business,446
+03/12/2022,Vistara,UK,874,8:30,Hyderabad,06h 00m,1-stop,14:30,Delhi,"39,555",business,444
+03/12/2022,Vistara,UK,802,18:50,Bangalore,13h 05m,1-stop,7:55,Mumbai,"6,568",economy,57
+03/12/2022,GO FIRST,G8,791,20:00,Bangalore,11h 45m,1-stop,7:45,Mumbai,"6,863",economy,103
+03/12/2022,Vistara,UK,816,11:30,Bangalore,10h 30m,1-stop,22:00,Mumbai,"6,568",economy,236
+03/12/2022,Vistara,UK,867,12:45,Bangalore,26h 00m,1-stop,14:45,Mumbai,"7,206",economy,90
+03/12/2022,Vistara,UK,706,13:40,Delhi,07h 55m,1-stop,21:35,Mumbai,"36,577",business,328
+03/12/2022,Air India,AI,508,13:05,Hyderabad,07h 30m,1-stop,20:35,Delhi,"44,583",business,434
 13/03/2022,Indigo,6E,131,7:20,Bangalore,07h 25m,1-stop,14:45,Mumbai,"3,153",economy,163
 13/03/2022,Air India,AI,440,6:10,Chennai,15h 25m,1-stop,21:35,Mumbai,"49,553",business,378
 13/03/2022,Air India,AI,503,17:50,Bangalore,17h 25m,1-stop,11:15,Mumbai,"6,158",economy,26
@@ -155,69 +155,69 @@ date,airline,ch_code,num_code,dep_time,from,time_taken,stop,arr_time,to,price,cl
 31/03/2022,Air India,AI,610,19:10,Bangalore,23h 05m,1-stop,18:15,Delhi,"42,521",business,303
 31/03/2022,Air India,AI,738,11:50,Bangalore,12h 05m,1-stop,23:55,Delhi,"39,847",business,417
 31/03/2022,Air India,AI,738,11:50,Bangalore,05h 35m,1-stop,17:25,Mumbai,"5,290",economy,198
-01/04/2022,Air India,AI,616,8:25,Hyderabad,09h 55m,1-stop,18:20,Delhi,"39,499",business,496
-01/04/2022,Vistara,UK,810,7:00,Bangalore,12h 05m,1-stop,19:05,Mumbai,"6,568",economy,52
-01/04/2022,Air India,AI,538,20:20,Chennai,13h 50m,1-stop,10:10,Mumbai,"49,553",business,364
-01/04/2022,Air India,AI,531,20:00,Delhi,24h 45m,1-stop,20:45,Mumbai,"37,286",business,257
-01/04/2022,Vistara,UK,802,18:50,Bangalore,13h 05m,1-stop,7:55,Mumbai,"6,568",economy,246
-01/04/2022,Vistara,UK,812,9:45,Bangalore,07h 55m,1-stop,17:40,Mumbai,"6,568",economy,230
-01/04/2022,Vistara,UK,812,9:45,Bangalore,14h 05m,1-stop,23:50,Mumbai,"6,568",economy,249
-02/04/2022,Air India,AI,698,22:15,Hyderabad,10h 55m,1-stop,9:10,Delhi,"39,499",business,326
-02/04/2022,Indigo,6E,6464,4:30,Bangalore,01h 40m,1-stop,6:10,Mumbai,"2,201",economy,114
-02/04/2022,Indigo,6E,7227,6:05,Bangalore,07h 40m,1-stop,13:45,Mumbai,"3,153",economy,164
-02/04/2022,Air India,AI,516,7:35,Bangalore,14h 00m,1-stop,21:35,Mumbai,"5,761",economy,12
-02/04/2022,Air India,AI,503,17:50,Bangalore,27h 25m,1-stop,21:15,Mumbai,"6,158",economy,32
-03/04/2022,Air India,AI,765,17:15,Kolkata,19h 45m,1-stop,13:00,Delhi,"48,079",business,361
+04/01/2022,Air India,AI,616,8:25,Hyderabad,09h 55m,1-stop,18:20,Delhi,"39,499",business,496
+04/01/2022,Vistara,UK,810,7:00,Bangalore,12h 05m,1-stop,19:05,Mumbai,"6,568",economy,52
+04/01/2022,Air India,AI,538,20:20,Chennai,13h 50m,1-stop,10:10,Mumbai,"49,553",business,364
+04/01/2022,Air India,AI,531,20:00,Delhi,24h 45m,1-stop,20:45,Mumbai,"37,286",business,257
+04/01/2022,Vistara,UK,802,18:50,Bangalore,13h 05m,1-stop,7:55,Mumbai,"6,568",economy,246
+04/01/2022,Vistara,UK,812,9:45,Bangalore,07h 55m,1-stop,17:40,Mumbai,"6,568",economy,230
+04/01/2022,Vistara,UK,812,9:45,Bangalore,14h 05m,1-stop,23:50,Mumbai,"6,568",economy,249
+04/02/2022,Air India,AI,698,22:15,Hyderabad,10h 55m,1-stop,9:10,Delhi,"39,499",business,326
+04/02/2022,Indigo,6E,6464,4:30,Bangalore,01h 40m,1-stop,6:10,Mumbai,"2,201",economy,114
+04/02/2022,Indigo,6E,7227,6:05,Bangalore,07h 40m,1-stop,13:45,Mumbai,"3,153",economy,164
+04/02/2022,Air India,AI,516,7:35,Bangalore,14h 00m,1-stop,21:35,Mumbai,"5,761",economy,12
+04/02/2022,Air India,AI,503,17:50,Bangalore,27h 25m,1-stop,21:15,Mumbai,"6,158",economy,32
+04/03/2022,Air India,AI,765,17:15,Kolkata,19h 45m,1-stop,13:00,Delhi,"48,079",business,361
 04/04/2022,Vistara,UK,810,7:00,Bangalore,09h 30m,1-stop,16:30,Mumbai,"6,568",economy,45
 04/04/2022,GO FIRST,G8,399,22:00,Bangalore,01h 55m,1-stop,23:55,Mumbai,"2,201",economy,124
 04/04/2022,Vistara,UK,818,19:40,Bangalore,14h 05m,1-stop,9:45,Mumbai,"7,212",economy,99
 04/04/2022,Indigo,6E,6212,10:55,Bangalore,04h 10m,1-stop,15:05,Mumbai,"3,153",economy,148
 04/04/2022,Vistara,UK,772,10:25,Kolkata,10h 15m,1-stop,20:40,Delhi,"68,303",business,331
 04/04/2022,Air India,AI,698,22:15,Hyderabad,12h 00m,1-stop,10:15,Delhi,"39,499",business,414
-05/04/2022,Vistara,UK,960,11:55,Mumbai,08h 20m,1-stop,20:15,Chennai,"61,933",business,367
-05/04/2022,Air India,AI,804,6:10,Bangalore,11h 50m,1-stop,18:00,Mumbai,"6,578",economy,81
-05/04/2022,Air India,AI,732,13:00,Kolkata,23h 15m,1-stop,12:15,Delhi,"53,743",business,334
-05/04/2022,Vistara,UK,816,11:30,Bangalore,07h 35m,1-stop,19:05,Mumbai,"6,568",economy,40
-05/04/2022,Air India,AI,773,17:15,Kolkata,17h 30m,1-stop,10:45,Delhi,"53,743",business,296
-05/04/2022,Air India,AI,773,17:15,Kolkata,06h 30m,1-stop,23:45,Delhi,"53,743",business,470
-05/04/2022,Vistara,UK,834,17:25,Chennai,18h 10m,1-stop,11:35,Mumbai,"56,273",business,495
-05/04/2022,Air India,AI,503,17:50,Bangalore,26h 10m,1-stop,20:00,Mumbai,"6,158",economy,220
-05/04/2022,Air India,AI,808,21:00,Bangalore,13h 10m,1-stop,10:10,Mumbai,"6,578",economy,83
-05/04/2022,Air India,AI,698,22:15,Hyderabad,10h 55m,1-stop,9:10,Delhi,"39,499",business,370
-06/04/2022,Air India,AI,539,17:00,Chennai,27h 00m,1-stop,20:00,Mumbai,"49,553",business,353
-06/04/2022,Air India,AI,505,10:25,Bangalore,11h 10m,1-stop,21:35,Mumbai,"6,158",economy,22
-06/04/2022,Vistara,UK,970,8:45,Mumbai,14h 00m,1-stop,22:45,Chennai,"64,173",business,411
-06/04/2022,Vistara,UK,808,8:00,Bangalore,14h 00m,1-stop,22:00,Mumbai,"6,568",economy,247
-06/04/2022,Vistara,UK,850,19:55,Bangalore,01h 55m,1-stop,21:50,Mumbai,"2,150",economy,112
-07/04/2022,Air India,AI,516,7:35,Bangalore,25h 20m,1-stop,8:55,Delhi,"35,554",business,494
-07/04/2022,Vistara,UK,960,11:55,Mumbai,08h 20m,1-stop,20:15,Chennai,"69,885",business,431
-07/04/2022,Indigo,6E,309,19:50,Bangalore,04h 50m,1-stop,0:40,Mumbai,"3,957",economy,173
-07/04/2022,Air India,AI,804,6:10,Bangalore,13h 50m,1-stop,20:00,Mumbai,"6,578",economy,84
-07/04/2022,Vistara,UK,812,9:45,Bangalore,10h 20m,1-stop,20:05,Mumbai,"7,212",economy,93
-08/04/2022,Air India,AI,698,22:15,Hyderabad,12h 30m,1-stop,10:45,Delhi,"39,499",business,307
-08/04/2022,Indigo,6E,113,9:50,Bangalore,05h 50m,1-stop,15:40,Mumbai,"2,201",economy,129
-09/04/2022,Air India,AI,479,21:15,Delhi,17h 45m,1-stop,15:00,Mumbai,"50,669",business,254
-09/04/2022,Vistara,UK,876,21:35,Hyderabad,22h 10m,1-stop,19:45,Delhi,"47,395",business,365
-09/04/2022,SpiceJet,SG,3027,5:45,Bangalore,24h 55m,1-stop,6:40,Mumbai,"3,990",economy,179
-10/04/2022,Vistara,UK,838,21:05,Chennai,20h 35m,1-stop,17:40,Mumbai,"61,873",business,423
-10/04/2022,Indigo,6E,309,19:50,Bangalore,07h 05m,1-stop,2:55,Mumbai,"3,153",economy,161
-10/04/2022,Vistara,UK,834,17:10,Chennai,05h 40m,1-stop,22:50,Mumbai,"49,553",business,319
-10/04/2022,Vistara,UK,986,22:45,Mumbai,21h 30m,1-stop,20:15,Chennai,"49,613",business,492
-10/04/2022,Vistara,UK,810,7:00,Bangalore,08h 00m,1-stop,15:00,Mumbai,"6,568",economy,231
-11/04/2022,Vistara,UK,637,17:10,Delhi,17h 50m,1-stop,11:00,Mumbai,"36,577",business,329
-11/04/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"43,910",business,308
-11/04/2022,Vistara,UK,878,12:55,Hyderabad,10h 05m,1-stop,23:00,Delhi,"51,875",business,429
-11/04/2022,Vistara,UK,816,11:30,Bangalore,07h 35m,1-stop,19:05,Mumbai,"6,568",economy,229
-11/04/2022,Vistara,UK,864,19:00,Bangalore,05h 55m,1-stop,0:55,Delhi,"42,521",business,357
-12/04/2022,Vistara,UK,852,9:30,Bangalore,01h 55m,1-stop,11:25,Mumbai,"2,150",economy,111
-12/04/2022,GO FIRST,G8,7559,15:30,Bangalore,16h 15m,1-stop,7:45,Mumbai,"7,317",economy,104
-12/04/2022,GO FIRST,G8,385,5:45,Bangalore,01h 35m,1-stop,7:20,Mumbai,"2,201",economy,113
-12/04/2022,GO FIRST,G8,116,7:20,Bangalore,09h 15m,1-stop,16:35,Mumbai,"6,389",economy,66
-12/04/2022,Air India,AI,698,22:15,Hyderabad,12h 00m,1-stop,10:15,Delhi,"44,640",business,259
-12/04/2022,Vistara,UK,838,21:05,Chennai,19h 25m,1-stop,16:30,Mumbai,"49,553",business,384
-12/04/2022,Vistara,UK,897,7:55,Bangalore,06h 35m,1-stop,14:30,Mumbai,"4,792",economy,190
-12/04/2022,Air India,AI,732,13:00,Kolkata,21h 15m,1-stop,10:15,Delhi,"53,743",business,405
-12/04/2022,Air India,AI,526,19:00,Kolkata,14h 00m,1-stop,9:00,Delhi,"43,910",business,355
+04/05/2022,Vistara,UK,960,11:55,Mumbai,08h 20m,1-stop,20:15,Chennai,"61,933",business,367
+04/05/2022,Air India,AI,804,6:10,Bangalore,11h 50m,1-stop,18:00,Mumbai,"6,578",economy,81
+04/05/2022,Air India,AI,732,13:00,Kolkata,23h 15m,1-stop,12:15,Delhi,"53,743",business,334
+04/05/2022,Vistara,UK,816,11:30,Bangalore,07h 35m,1-stop,19:05,Mumbai,"6,568",economy,40
+04/05/2022,Air India,AI,773,17:15,Kolkata,17h 30m,1-stop,10:45,Delhi,"53,743",business,296
+04/05/2022,Air India,AI,773,17:15,Kolkata,06h 30m,1-stop,23:45,Delhi,"53,743",business,470
+04/05/2022,Vistara,UK,834,17:25,Chennai,18h 10m,1-stop,11:35,Mumbai,"56,273",business,495
+04/05/2022,Air India,AI,503,17:50,Bangalore,26h 10m,1-stop,20:00,Mumbai,"6,158",economy,220
+04/05/2022,Air India,AI,808,21:00,Bangalore,13h 10m,1-stop,10:10,Mumbai,"6,578",economy,83
+04/05/2022,Air India,AI,698,22:15,Hyderabad,10h 55m,1-stop,9:10,Delhi,"39,499",business,370
+04/06/2022,Air India,AI,539,17:00,Chennai,27h 00m,1-stop,20:00,Mumbai,"49,553",business,353
+04/06/2022,Air India,AI,505,10:25,Bangalore,11h 10m,1-stop,21:35,Mumbai,"6,158",economy,22
+04/06/2022,Vistara,UK,970,8:45,Mumbai,14h 00m,1-stop,22:45,Chennai,"64,173",business,411
+04/06/2022,Vistara,UK,808,8:00,Bangalore,14h 00m,1-stop,22:00,Mumbai,"6,568",economy,247
+04/06/2022,Vistara,UK,850,19:55,Bangalore,01h 55m,1-stop,21:50,Mumbai,"2,150",economy,112
+04/07/2022,Air India,AI,516,7:35,Bangalore,25h 20m,1-stop,8:55,Delhi,"35,554",business,494
+04/07/2022,Vistara,UK,960,11:55,Mumbai,08h 20m,1-stop,20:15,Chennai,"69,885",business,431
+04/07/2022,Indigo,6E,309,19:50,Bangalore,04h 50m,1-stop,0:40,Mumbai,"3,957",economy,173
+04/07/2022,Air India,AI,804,6:10,Bangalore,13h 50m,1-stop,20:00,Mumbai,"6,578",economy,84
+04/07/2022,Vistara,UK,812,9:45,Bangalore,10h 20m,1-stop,20:05,Mumbai,"7,212",economy,93
+04/08/2022,Air India,AI,698,22:15,Hyderabad,12h 30m,1-stop,10:45,Delhi,"39,499",business,307
+04/08/2022,Indigo,6E,113,9:50,Bangalore,05h 50m,1-stop,15:40,Mumbai,"2,201",economy,129
+04/09/2022,Air India,AI,479,21:15,Delhi,17h 45m,1-stop,15:00,Mumbai,"50,669",business,254
+04/09/2022,Vistara,UK,876,21:35,Hyderabad,22h 10m,1-stop,19:45,Delhi,"47,395",business,365
+04/09/2022,SpiceJet,SG,3027,5:45,Bangalore,24h 55m,1-stop,6:40,Mumbai,"3,990",economy,179
+04/10/2022,Vistara,UK,838,21:05,Chennai,20h 35m,1-stop,17:40,Mumbai,"61,873",business,423
+04/10/2022,Indigo,6E,309,19:50,Bangalore,07h 05m,1-stop,2:55,Mumbai,"3,153",economy,161
+04/10/2022,Vistara,UK,834,17:10,Chennai,05h 40m,1-stop,22:50,Mumbai,"49,553",business,319
+04/10/2022,Vistara,UK,986,22:45,Mumbai,21h 30m,1-stop,20:15,Chennai,"49,613",business,492
+04/10/2022,Vistara,UK,810,7:00,Bangalore,08h 00m,1-stop,15:00,Mumbai,"6,568",economy,231
+04/11/2022,Vistara,UK,637,17:10,Delhi,17h 50m,1-stop,11:00,Mumbai,"36,577",business,329
+04/11/2022,Air India,AI,526,19:00,Kolkata,18h 50m,1-stop,13:50,Delhi,"43,910",business,308
+04/11/2022,Vistara,UK,878,12:55,Hyderabad,10h 05m,1-stop,23:00,Delhi,"51,875",business,429
+04/11/2022,Vistara,UK,816,11:30,Bangalore,07h 35m,1-stop,19:05,Mumbai,"6,568",economy,229
+04/11/2022,Vistara,UK,864,19:00,Bangalore,05h 55m,1-stop,0:55,Delhi,"42,521",business,357
+04/12/2022,Vistara,UK,852,9:30,Bangalore,01h 55m,1-stop,11:25,Mumbai,"2,150",economy,111
+04/12/2022,GO FIRST,G8,7559,15:30,Bangalore,16h 15m,1-stop,7:45,Mumbai,"7,317",economy,104
+04/12/2022,GO FIRST,G8,385,5:45,Bangalore,01h 35m,1-stop,7:20,Mumbai,"2,201",economy,113
+04/12/2022,GO FIRST,G8,116,7:20,Bangalore,09h 15m,1-stop,16:35,Mumbai,"6,389",economy,66
+04/12/2022,Air India,AI,698,22:15,Hyderabad,12h 00m,1-stop,10:15,Delhi,"44,640",business,259
+04/12/2022,Vistara,UK,838,21:05,Chennai,19h 25m,1-stop,16:30,Mumbai,"49,553",business,384
+04/12/2022,Vistara,UK,897,7:55,Bangalore,06h 35m,1-stop,14:30,Mumbai,"4,792",economy,190
+04/12/2022,Air India,AI,732,13:00,Kolkata,21h 15m,1-stop,10:15,Delhi,"53,743",business,405
+04/12/2022,Air India,AI,526,19:00,Kolkata,14h 00m,1-stop,9:00,Delhi,"43,910",business,355
 13/04/2022,Air India,AI,738,11:50,Bangalore,12h 05m,1-stop,23:55,Delhi,"39,847",business,291
 13/04/2022,Indigo,6E,541,9:20,Bangalore,05h 45m,1-stop,15:05,Mumbai,"3,153",economy,154
 13/04/2022,Air India,AI,542,9:45,Delhi,14h 10m,1-stop,23:55,Mumbai,"44,450",business,266
@@ -325,70 +325,70 @@ date,airline,ch_code,num_code,dep_time,from,time_taken,stop,arr_time,to,price,cl
 30/04/2022,Indigo,6E,6257,6:10,Bangalore,06h 05m,1-stop,12:15,Mumbai,"3,153",economy,156
 30/04/2022,Indigo,6E,6491,13:05,Bangalore,06h 10m,1-stop,19:15,Mumbai,"3,153",economy,157
 30/04/2022,GO FIRST,G8,118,21:55,Bangalore,12h 15m,1-stop,10:10,Mumbai,"6,389",economy,71
-01/05/2022,Air India,AI,9505,9:00,Bangalore,14h 05m,1-stop,23:05,Mumbai,"4,027",economy,180
-01/05/2022,Vistara,UK,810,7:00,Bangalore,14h 15m,1-stop,21:15,Mumbai,"7,212",economy,100
-01/05/2022,Vistara,UK,808,8:00,Bangalore,11h 05m,1-stop,19:05,Mumbai,"6,568",economy,50
-01/05/2022,Air India,AI,539,17:00,Chennai,16h 05m,1-stop,9:05,Mumbai,"49,553",business,374
-01/05/2022,Vistara,UK,812,9:45,Bangalore,13h 05m,1-stop,22:50,Mumbai,"6,568",economy,245
-01/05/2022,Air India,AI,9517,18:50,Bangalore,25h 10m,1-stop,20:00,Mumbai,"5,771",economy,17
-01/05/2022,Vistara,UK,627,13:20,Delhi,26h 40m,1-stop,16:00,Mumbai,"37,417",business,309
-01/05/2022,Indigo,6E,161,13:35,Bangalore,04h 10m,1-stop,17:45,Mumbai,"4,171",economy,183
-01/05/2022,Vistara,UK,808,8:00,Bangalore,09h 40m,1-stop,17:40,Mumbai,"6,568",economy,46
-01/05/2022,Air India,AI,507,6:30,Bangalore,26h 30m,1-stop,9:00,Delhi,"35,554",business,293
-01/05/2022,Air India,AI,526,19:00,Kolkata,28h 00m,1-stop,23:00,Delhi,"43,910",business,314
-02/05/2022,AirAsia,I5,1782,20:45,Bangalore,10h 55m,1-stop,7:40,Mumbai,"2,203",economy,139
-02/05/2022,Air India,AI,640,6:45,Bangalore,05h 30m,1-stop,12:15,Delhi,"42,521",business,279
-02/05/2022,Air India,AI,507,8:40,Hyderabad,15h 15m,1-stop,23:55,Delhi,"37,846",business,274
-02/05/2022,Vistara,UK,878,12:55,Hyderabad,19h 10m,1-stop,8:05,Delhi,"39,555",business,283
-03/05/2022,Air India,AI,515,9:35,Hyderabad,06h 20m,1-stop,15:55,Delhi,"44,583",business,340
-03/05/2022,Air India,AI,538,20:20,Chennai,21h 40m,1-stop,18:00,Mumbai,"49,553",business,332
-03/05/2022,Vistara,UK,874,8:30,Hyderabad,16h 25m,1-stop,0:55,Delhi,"39,555",business,475
-03/05/2022,Air India,AI,501,13:20,Bangalore,08h 15m,1-stop,21:35,Mumbai,"6,578",economy,79
-04/05/2022,AirAsia,I5,972,16:25,Bangalore,15h 15m,1-stop,7:40,Mumbai,"3,385",economy,169
-04/05/2022,Vistara,UK,877,10:45,Mumbai,09h 30m,2+stop,20:15,Chennai,"68,743",business,500
-04/05/2022,GO FIRST,G8,805,8:15,Bangalore,15h 15m,1-stop,23:30,Mumbai,"4,807",economy,196
-04/05/2022,Air India,AI,505,10:25,Bangalore,10h 50m,1-stop,21:15,Mumbai,"6,158",economy,210
+05/01/2022,Air India,AI,9505,9:00,Bangalore,14h 05m,1-stop,23:05,Mumbai,"4,027",economy,180
+05/01/2022,Vistara,UK,810,7:00,Bangalore,14h 15m,1-stop,21:15,Mumbai,"7,212",economy,100
+05/01/2022,Vistara,UK,808,8:00,Bangalore,11h 05m,1-stop,19:05,Mumbai,"6,568",economy,50
+05/01/2022,Air India,AI,539,17:00,Chennai,16h 05m,1-stop,9:05,Mumbai,"49,553",business,374
+05/01/2022,Vistara,UK,812,9:45,Bangalore,13h 05m,1-stop,22:50,Mumbai,"6,568",economy,245
+05/01/2022,Air India,AI,9517,18:50,Bangalore,25h 10m,1-stop,20:00,Mumbai,"5,771",economy,17
+05/01/2022,Vistara,UK,627,13:20,Delhi,26h 40m,1-stop,16:00,Mumbai,"37,417",business,309
+05/01/2022,Indigo,6E,161,13:35,Bangalore,04h 10m,1-stop,17:45,Mumbai,"4,171",economy,183
+05/01/2022,Vistara,UK,808,8:00,Bangalore,09h 40m,1-stop,17:40,Mumbai,"6,568",economy,46
+05/01/2022,Air India,AI,507,6:30,Bangalore,26h 30m,1-stop,9:00,Delhi,"35,554",business,293
+05/01/2022,Air India,AI,526,19:00,Kolkata,28h 00m,1-stop,23:00,Delhi,"43,910",business,314
+05/02/2022,AirAsia,I5,1782,20:45,Bangalore,10h 55m,1-stop,7:40,Mumbai,"2,203",economy,139
+05/02/2022,Air India,AI,640,6:45,Bangalore,05h 30m,1-stop,12:15,Delhi,"42,521",business,279
+05/02/2022,Air India,AI,507,8:40,Hyderabad,15h 15m,1-stop,23:55,Delhi,"37,846",business,274
+05/02/2022,Vistara,UK,878,12:55,Hyderabad,19h 10m,1-stop,8:05,Delhi,"39,555",business,283
+05/03/2022,Air India,AI,515,9:35,Hyderabad,06h 20m,1-stop,15:55,Delhi,"44,583",business,340
+05/03/2022,Air India,AI,538,20:20,Chennai,21h 40m,1-stop,18:00,Mumbai,"49,553",business,332
+05/03/2022,Vistara,UK,874,8:30,Hyderabad,16h 25m,1-stop,0:55,Delhi,"39,555",business,475
+05/03/2022,Air India,AI,501,13:20,Bangalore,08h 15m,1-stop,21:35,Mumbai,"6,578",economy,79
+05/04/2022,AirAsia,I5,972,16:25,Bangalore,15h 15m,1-stop,7:40,Mumbai,"3,385",economy,169
+05/04/2022,Vistara,UK,877,10:45,Mumbai,09h 30m,2+stop,20:15,Chennai,"68,743",business,500
+05/04/2022,GO FIRST,G8,805,8:15,Bangalore,15h 15m,1-stop,23:30,Mumbai,"4,807",economy,196
+05/04/2022,Air India,AI,505,10:25,Bangalore,10h 50m,1-stop,21:15,Mumbai,"6,158",economy,210
 05/05/2022,Air India,AI,505,10:25,Bangalore,09h 35m,1-stop,20:00,Mumbai,"6,158",economy,209
 05/05/2022,Air India,AI,503,17:50,Bangalore,24h 10m,1-stop,18:00,Mumbai,"6,158",economy,219
 05/05/2022,Air India,AI,888,19:00,Mumbai,17h 40m,1-stop,12:40,Chennai,"49,613",business,426
 05/05/2022,Vistara,UK,657,11:30,Bangalore,08h 35m,1-stop,20:05,Mumbai,"8,117",economy,105
 05/05/2022,Indigo,6E,5389,18:00,Bangalore,01h 50m,1-stop,19:50,Mumbai,"2,201",economy,121
 05/05/2022,Vistara,UK,846,8:30,Bangalore,06h 00m,1-stop,14:30,Delhi,"42,521",business,482
-06/05/2022,Air India,AI,539,17:00,Chennai,18h 15m,1-stop,11:15,Mumbai,"49,553",business,433
-06/05/2022,Vistara,UK,986,22:45,Mumbai,17h 35m,1-stop,16:20,Chennai,"57,565",business,460
-06/05/2022,Air India,AI,538,20:20,Chennai,13h 50m,1-stop,10:10,Mumbai,"49,553",business,339
-06/05/2022,Vistara,UK,816,11:30,Bangalore,02h 40m,non-stop ,14:10,Delhi,"32,923",business,452
-06/05/2022,Air India,AI,505,10:25,Bangalore,10h 50m,1-stop,21:15,Mumbai,"6,158",economy,21
-06/05/2022,GO FIRST,G8,285,15:45,Bangalore,09h 35m,1-stop,1:20,Mumbai,"4,096",economy,182
-06/05/2022,Air India,AI,516,7:35,Bangalore,25h 20m,1-stop,8:55,Delhi,"35,554",business,477
-07/05/2022,Vistara,UK,850,19:55,Bangalore,12h 10m,1-stop,8:05,Delhi,"42,521",business,373
-07/05/2022,Vistara,UK,776,17:35,Kolkata,17h 25m,1-stop,11:00,Delhi,"68,303",business,395
-08/05/2022,Vistara,UK,836,10:45,Chennai,12h 05m,1-stop,22:50,Mumbai,"49,553",business,438
-08/05/2022,Vistara,UK,944,14:40,Mumbai,19h 15m,1-stop,9:55,Chennai,"61,933",business,466
-08/05/2022,Indigo,6E,6345,12:45,Bangalore,05h 00m,1-stop,17:45,Mumbai,"2,201",economy,128
-08/05/2022,Air India,AI,503,17:50,Bangalore,19h 00m,1-stop,12:50,Mumbai,"6,158",economy,216
-08/05/2022,Vistara,UK,774,20:35,Kolkata,21h 30m,1-stop,18:05,Delhi,"66,063",business,366
-09/05/2022,Air India,AI,9517,18:50,Bangalore,26h 25m,1-stop,21:15,Mumbai,"5,771",economy,202
-09/05/2022,Indigo,6E,807,9:50,Bangalore,06h 50m,1-stop,16:40,Mumbai,"3,153",economy,158
-09/05/2022,Air India,AI,503,17:50,Bangalore,17h 25m,1-stop,11:15,Mumbai,"6,158",economy,215
-10/05/2022,Air India,AI,503,17:50,Bangalore,15h 15m,1-stop,9:05,Mumbai,"6,158",economy,24
-10/05/2022,Vistara,UK,874,8:30,Hyderabad,12h 10m,1-stop,20:40,Delhi,"54,115",business,464
-10/05/2022,Vistara,UK,812,9:45,Bangalore,06h 45m,1-stop,16:30,Mumbai,"6,568",economy,226
-10/05/2022,GO FIRST,G8,116,7:20,Bangalore,15h 55m,1-stop,23:15,Mumbai,"6,389",economy,75
-10/05/2022,Vistara,UK,950,21:55,Mumbai,12h 00m,1-stop,9:55,Chennai,"74,365",business,456
-10/05/2022,Vistara,UK,893,19:55,Bangalore,18h 35m,1-stop,14:30,Mumbai,"4,792",economy,1
-10/05/2022,Indigo,6E,6491,13:05,Bangalore,07h 40m,1-stop,20:45,Mumbai,"3,153",economy,165
-11/05/2022,Air India,AI,765,17:15,Kolkata,19h 45m,1-stop,13:00,Delhi,"48,079",business,360
-11/05/2022,Vistara,UK,986,22:45,Mumbai,21h 30m,1-stop,20:15,Chennai,"57,565",business,461
-12/05/2022,Vistara,UK,818,19:40,Bangalore,02h 45m,non-stop ,22:25,Delhi,"34,043",business,252
-12/05/2022,Air India,AI,442,15:35,Mumbai,08h 00m,1-stop,23:35,Chennai,"49,613",business,372
-12/05/2022,Air India,AI,440,6:10,Chennai,15h 25m,1-stop,21:35,Mumbai,"49,553",business,478
-12/05/2022,Indigo,6E,379,9:40,Bangalore,05h 05m,1-stop,14:45,Mumbai,"3,153",economy,153
-12/05/2022,Vistara,UK,847,11:10,Delhi,22h 35m,1-stop,9:45,Mumbai,"69,785",business,295
-12/05/2022,Indigo,6E,131,7:20,Bangalore,04h 15m,1-stop,11:35,Mumbai,"3,153",economy,149
-12/05/2022,Vistara,UK,816,11:30,Bangalore,12h 20m,1-stop,23:50,Mumbai,"6,568",economy,244
-12/05/2022,Vistara,UK,838,21:05,Chennai,17h 55m,1-stop,15:00,Mumbai,"61,873",business,483
-12/05/2022,Air India,AI,507,6:30,Bangalore,12h 00m,1-stop,18:30,Delhi,"35,554",business,412
+05/06/2022,Air India,AI,539,17:00,Chennai,18h 15m,1-stop,11:15,Mumbai,"49,553",business,433
+05/06/2022,Vistara,UK,986,22:45,Mumbai,17h 35m,1-stop,16:20,Chennai,"57,565",business,460
+05/06/2022,Air India,AI,538,20:20,Chennai,13h 50m,1-stop,10:10,Mumbai,"49,553",business,339
+05/06/2022,Vistara,UK,816,11:30,Bangalore,02h 40m,non-stop ,14:10,Delhi,"32,923",business,452
+05/06/2022,Air India,AI,505,10:25,Bangalore,10h 50m,1-stop,21:15,Mumbai,"6,158",economy,21
+05/06/2022,GO FIRST,G8,285,15:45,Bangalore,09h 35m,1-stop,1:20,Mumbai,"4,096",economy,182
+05/06/2022,Air India,AI,516,7:35,Bangalore,25h 20m,1-stop,8:55,Delhi,"35,554",business,477
+05/07/2022,Vistara,UK,850,19:55,Bangalore,12h 10m,1-stop,8:05,Delhi,"42,521",business,373
+05/07/2022,Vistara,UK,776,17:35,Kolkata,17h 25m,1-stop,11:00,Delhi,"68,303",business,395
+05/08/2022,Vistara,UK,836,10:45,Chennai,12h 05m,1-stop,22:50,Mumbai,"49,553",business,438
+05/08/2022,Vistara,UK,944,14:40,Mumbai,19h 15m,1-stop,9:55,Chennai,"61,933",business,466
+05/08/2022,Indigo,6E,6345,12:45,Bangalore,05h 00m,1-stop,17:45,Mumbai,"2,201",economy,128
+05/08/2022,Air India,AI,503,17:50,Bangalore,19h 00m,1-stop,12:50,Mumbai,"6,158",economy,216
+05/08/2022,Vistara,UK,774,20:35,Kolkata,21h 30m,1-stop,18:05,Delhi,"66,063",business,366
+05/09/2022,Air India,AI,9517,18:50,Bangalore,26h 25m,1-stop,21:15,Mumbai,"5,771",economy,202
+05/09/2022,Indigo,6E,807,9:50,Bangalore,06h 50m,1-stop,16:40,Mumbai,"3,153",economy,158
+05/09/2022,Air India,AI,503,17:50,Bangalore,17h 25m,1-stop,11:15,Mumbai,"6,158",economy,215
+05/10/2022,Air India,AI,503,17:50,Bangalore,15h 15m,1-stop,9:05,Mumbai,"6,158",economy,24
+05/10/2022,Vistara,UK,874,8:30,Hyderabad,12h 10m,1-stop,20:40,Delhi,"54,115",business,464
+05/10/2022,Vistara,UK,812,9:45,Bangalore,06h 45m,1-stop,16:30,Mumbai,"6,568",economy,226
+05/10/2022,GO FIRST,G8,116,7:20,Bangalore,15h 55m,1-stop,23:15,Mumbai,"6,389",economy,75
+05/10/2022,Vistara,UK,950,21:55,Mumbai,12h 00m,1-stop,9:55,Chennai,"74,365",business,456
+05/10/2022,Vistara,UK,893,19:55,Bangalore,18h 35m,1-stop,14:30,Mumbai,"4,792",economy,1
+05/10/2022,Indigo,6E,6491,13:05,Bangalore,07h 40m,1-stop,20:45,Mumbai,"3,153",economy,165
+05/11/2022,Air India,AI,765,17:15,Kolkata,19h 45m,1-stop,13:00,Delhi,"48,079",business,360
+05/11/2022,Vistara,UK,986,22:45,Mumbai,21h 30m,1-stop,20:15,Chennai,"57,565",business,461
+05/12/2022,Vistara,UK,818,19:40,Bangalore,02h 45m,non-stop ,22:25,Delhi,"34,043",business,252
+05/12/2022,Air India,AI,442,15:35,Mumbai,08h 00m,1-stop,23:35,Chennai,"49,613",business,372
+05/12/2022,Air India,AI,440,6:10,Chennai,15h 25m,1-stop,21:35,Mumbai,"49,553",business,478
+05/12/2022,Indigo,6E,379,9:40,Bangalore,05h 05m,1-stop,14:45,Mumbai,"3,153",economy,153
+05/12/2022,Vistara,UK,847,11:10,Delhi,22h 35m,1-stop,9:45,Mumbai,"69,785",business,295
+05/12/2022,Indigo,6E,131,7:20,Bangalore,04h 15m,1-stop,11:35,Mumbai,"3,153",economy,149
+05/12/2022,Vistara,UK,816,11:30,Bangalore,12h 20m,1-stop,23:50,Mumbai,"6,568",economy,244
+05/12/2022,Vistara,UK,838,21:05,Chennai,17h 55m,1-stop,15:00,Mumbai,"61,873",business,483
+05/12/2022,Air India,AI,507,6:30,Bangalore,12h 00m,1-stop,18:30,Delhi,"35,554",business,412
 13/05/2022,Air India,AI,765,14:40,Kolkata,08h 30m,1-stop,23:10,Delhi,"48,079",business,282
 13/05/2022,Air India,AI,451,14:30,Delhi,25h 55m,1-stop,16:25,Mumbai,"39,622",business,335
 13/05/2022,Vistara,UK,705,7:30,Delhi,12h 50m,1-stop,20:20,Mumbai,"59,033",business,302

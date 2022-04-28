@@ -1,7 +1,7 @@
 from numpy import char
 import streamlit as st
 from app import compare_tickets, contact_us, homepage, search2
-from app.graph_pages import table, line_chart, charts2, piechart
+from app.graph_pages import table, line_chart, charts2, pie_chart
 from streamlit_option_menu import option_menu
 
 
@@ -39,7 +39,7 @@ elif choose ==  "ㄴLine chart":
 elif choose ==  "ㄴBar chart":
     charts2.app()
 elif choose ==  "ㄴPie chart":
-    piechart.app()
+    pie_chart.app()
 elif choose ==  "ㄴMap":
     compare_tickets.app()
 elif choose == "DATA COMPARISION":

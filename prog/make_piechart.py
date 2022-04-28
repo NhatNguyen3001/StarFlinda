@@ -50,7 +50,6 @@ def get_clean_data_by_btn(mode):
     #COST_2 = 11
     CLASS = 12
 
-    # date, 출발 시간, 도착 시간, 걸리는 시간, 가격
 
     data = {}
     if mode == "Date":

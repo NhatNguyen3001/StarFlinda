@@ -1,12 +1,12 @@
 from numpy import char
 import streamlit as st
 from app import compare_tickets, contact_us, homepage, search2
-from app.graph_pages import table, line_chart, charts2, pie_chart
+from app.graph_pages import table, bar_chart, pie_chart
 from streamlit_option_menu import option_menu
 
 
 #build webpage
-
+st.set_page_config(layout="wide")
 
 # REF : https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py
 
@@ -37,7 +37,7 @@ elif choose ==  "ㄴTable":
 elif choose ==  "ㄴLine chart":
     table.app()
 elif choose ==  "ㄴBar chart":
-    charts2.app()
+    bar_chart.app()
 elif choose ==  "ㄴPie chart":
     pie_chart.app()
 elif choose ==  "ㄴMap":

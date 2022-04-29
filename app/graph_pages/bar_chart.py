@@ -39,7 +39,6 @@ def app():
 
     st.text("Please input following format: dd/mm/yyyy")
     d = st.text_input('Choose the date')
-    day = st.write(d)
 
 
     ###Price_bar

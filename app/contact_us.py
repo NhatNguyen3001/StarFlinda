@@ -4,6 +4,19 @@ from prog import make_email
 
 # functions
 def app():
+
+     # Button css
+    buttoncss = st.markdown("""
+    <style>
+    div.stButton > button:first-child {
+        width:480px;
+        height:50px;
+        justify-content: center;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 0.8rem;
+    }
+    </style>""", unsafe_allow_html=True)
+
     with st.container():
         # Top part
         ui_col, st_col = st.columns(2)

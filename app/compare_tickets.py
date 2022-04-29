@@ -31,12 +31,10 @@ def app():
         st.header("Compare Tickets")  # write a title
 
         # PART 1) Get user input
-        ui_col1, ui_col2, ui_col3 = st.columns([1, 3, 3])
+        ui_col2, ui_col3 = st.columns(2)
 
         with st.form("compare_form"):
 
-            with ui_col1:
-                pass
 
             with ui_col2:
                 ticket_id1 = st.text_input("TICKET ID",

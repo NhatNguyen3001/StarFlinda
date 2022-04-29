@@ -1,7 +1,7 @@
 from numpy import char
 import streamlit as st
 from app import compare_tickets, contact_us, homepage, search2
-from app.graph_pages import table, line_chart, charts2, pie_chart
+from app.graph_pages import table, line_chart, bar_chart, pie_chart
 from streamlit_option_menu import option_menu
 
 
@@ -20,10 +20,10 @@ with st.sidebar:
                                 'person lines fill'],
                          menu_icon="app-indicator", default_index=0,
                          styles={
-                            "container": {"padding": "5!important", "background-color": "black"},
+                            "container": {"padding": "5!important", "background-color": "#234362"},
                             "icon": {"color": "orange", "font-size": "25px"}, 
                             "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-                            "nav-link-selected": {"background-color": "#02ab21"},
+                            "nav-link-selected": {"background-color": "#FFFFFF", "color": "#234362"},
                         }
     )
 

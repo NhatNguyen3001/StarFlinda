@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
+
 def app():
     # Hide menu
     hide_menu = """

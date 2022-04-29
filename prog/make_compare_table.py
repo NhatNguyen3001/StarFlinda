@@ -81,7 +81,6 @@ def is_valid_ticket_idx(ticket_id):
     num_of_items = get_num_of_items()
     temp = int(ticket_id)
 
-    print(num_of_items)
     if (0 <= temp and temp <= num_of_items):
         return True
 

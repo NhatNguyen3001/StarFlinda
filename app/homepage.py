@@ -4,11 +4,16 @@ import streamlit as st
 def app():
     with st.container():
         #Website
+        #Part 0) Introduction 
+        with st.container():
+            st.title("Welcome to StaFiIndia")
+            st.write("description")
 
-        #Part 1) CHART ILLUSTRATION
+        #Part 1) SERVICES ILLUSTRATION
         container_chart = st.container()
         with container_chart:
-
+            st.title("Beutiful data visualization")
+            st.write("description")
             chart_col1, chart_col2 = st.columns([4.6,1])
 
             with chart_col1:
@@ -26,6 +31,201 @@ def app():
             with chart_col4:
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Map")
      
+        #Part 1-1) EXPLAIN EACH CHART
+        with st.container():
+            st.title("Charts detail")
+            
+
+            # TABLE
+            chart1_col1, chart1_col2 = st.columns(2)
+
+            st.title("1. Table")
+            with chart1_col1:
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+
+
+            with chart1_col2:
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+                                
+
+
+
+            # BAR CHART
+            chart2_col1, chart2_col2 = st.columns(2)
+
+            st.title("2. Bar chart")
+            with chart2_col1:
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+                                
+                
+
+            with chart2_col2:
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+
+
+            # PIE CHART
+            chart3_col1, chart3_col2 = st.columns(2)
+
+            st.title("3. Pie chart")
+            with chart3_col1:
+                st.image("https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.15752-9/278934108_1026095314973209_571930375849437800_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=v240QdUcFUQAX8aosz1&_nc_oc=AQnnbkBWC7GzjZYFb2gfOEu8fiJ2_nlju1uoi9hzRCaMklJChd8zNGsj97GAvG0NVKY0a1BlcGr5EVo9GSYaivyZ&_nc_ht=scontent.fsgn8-1.fna&oh=03_AVIWlC02oGCjT8sIG3SFHNzkYWVXfUJ1DBm9ziEjTvhaYA&oe=62944AD8",caption = "Pie chart")
+
+            with chart3_col2:
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+                                
+            # PLOT CHART
+            chart4_col1, chart4_col2 = st.columns(2)
+
+            st.title("4. Plot chart")
+            with chart4_col1:
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+                                
+
+            with chart4_col2:
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+                
+
+            # MAP
+            chart5_col1, chart5_col2 = st.columns(2)
+
+            st.title("5. Map")
+            with chart5_col1:
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+
+            with chart5_col2:
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+                                
+                
+        #Part 1-2) EXPLAIN DATA SEARCH PAGE
+
+            st.title("DATA SEARCH")
+            with st.container():
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+
+            with st.container():
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+
+
+
+        #Part 1-3) EXPLAIN DATA COMPARE PAGE
+
+            st.title("DATA COMPARISION")
+            with st.container():
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+
+            with st.container():
+                st.header("What data does staFiIdia show?")
+                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                        styles= {"text-align": "justify"})
+                
+                st.header("What are things that you can control?")
+                st.write("""You can select one data type. 
+                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
+                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                            styles= {"text-align": "justify"})
+                
+                st.header("Guide")
+                st.write("""
+                        Step 1) Please choose one of the data types on the select box.\n
+                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
+                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        """, styles= {"text-align": "justify"})
+
+
+
+
+
+
         #PART 2) OUR MISSION
         mis_col1, mis_col2 = st.columns([1,1.5])
         with mis_col1:

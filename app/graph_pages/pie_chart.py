@@ -58,14 +58,3 @@ def app():
                         From 21:00 to 04:59: Night \n
                     """)
 
-        st.write(
-        """
-        StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
-
-        You can select one data type. Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.
-
-        Guide
-        Step 1) Please choose one of the data types on the select box.
-        Step 2) Check out a beautiful pie chart StaFiIndia provide.
-        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
-        """)

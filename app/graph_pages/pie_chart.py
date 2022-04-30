@@ -4,8 +4,9 @@ from prog import make_pie_chart
 
 
 def app():
+
+    st.title("Pie chart")
     with st.container():
-        st.title("Pie chart")
         st.write("description of pie chart")
 
     with st.container():

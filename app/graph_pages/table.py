@@ -9,7 +9,7 @@ from PIL import Image
 def app():
 
     st.title("Table")
-
+    st.write("View all the flights information.")
     # LOAD DATA
 
     data = pd.read_csv("lib//data//data.csv", index_col=0)

@@ -50,7 +50,7 @@ def app():
                                            key="tid2",
                                            help="Please enter the ticket id. You can search it on the Data search page.")
         # PART 2) submit form
-            sm_col1, sm_col2, sm_col3 = st.columns([3, 3, 1])
+            sm_col1, sm_col2, sm_col3 = st.columns([1, 1.5, 3])
             invalid_input = 0
             with sm_col1:
                 pass

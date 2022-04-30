@@ -16,28 +16,37 @@ def app():
         )
 
     with st.container():
-        plot, etc_items = make_pie_chart.draw_piechart(user_opt)
+        plot, etc_dict = make_pie_chart.draw_piechart(user_opt)
         
         st.pyplot(plot) # draw pie chart
         
-        # show details
-        if len(etc_items) >= 2:
-            st.write("etc items: ")
-            for item in etc_items:
-                st.write(item)
-    
+        # show etc details
+        etc_items_len = len(etc_dict)
+        if etc_items_len >= 2:
+            items_list_str = ""
+            last_item_idx = etc_items_len - 1
+            idx = 0
+            
+            print(etc_items_len)
+            for k in etc_dict.keys():
+                items_list_str += k + "(" + str(etc_dict[k]) + "%)"
+                if (idx != last_item_idx):
+                    items_list_str += ",   "
+
+                idx = idx + 1
+            
 
 
-# time 
-#05:00 ~ 11:59 == "Morning"
-#12:00 ~ 16:59 == "Afternoon"
-#17:00 ~ 20:59 == "Evening"
-#21:00 ~ 04:59 == "Night"
-
-# to do list 
-# major 
-# description for each data / 
-
-# minor 
-# % value for each etc itmes 
-# compare table
+            #display detail descrption
+            st.write("Some elements accounting for less than 5% of the total were found. The elements were "
+                        + items_list_str + ". These elements were consolidated in the 'etc' field on the chart.")
+        
+        # show detail description
+        if user_opt == 'Departure time' or user_opt == 'Arrival time':
+            st.write("The time range follows the criterion below.")
+            st.write("""
+                        From 05:00 to 11:59: Morning \n
+                        From 12:00 to 16:59: Afternoon \n
+                        From 17:00 to 20:59: Evening \n
+                        From 21:00 to 04:59: Night \n
+                    """)

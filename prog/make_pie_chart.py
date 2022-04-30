@@ -254,23 +254,23 @@ def get_percent_val(dic):
 
 def get_major_val(dic):
     min_val = 5.0
-    # merge value if it is less then min_val %
+    # merge value if it is less than min_val %
 
-    etc_items = [] # key which has value is less than min_val %
+    etc_items = {} # key which has value is less than min_val %
 
     for k in dic.keys():
         if dic[k] <= min_val:
-            etc_items.append(k) # get key which has value is less than min_val %
+            etc_items[k] = dic[k] # add key and value if value is less than min_val %
 
     if len(etc_items) <= 1:
         return dic, etc_items
 
-    # at least 2 items have a value which is less than 1%
+    # at least 2 items have a value which is less than min_val%
     dic["etc"] = 0 # add key "etc"
 
-    for i in etc_items:
-        dic["etc"] += dic[i] # add value in dict, the key is 'etc' 
-        del dic[i]     # remove original key and its value in dict
+    for k in etc_items.keys():
+        dic["etc"] += etc_items[k] # add value in dict, the key is 'etc' 
+        del dic[k]     # remove original key and its value in dict
 
 
 

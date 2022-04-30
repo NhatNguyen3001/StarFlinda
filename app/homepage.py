@@ -5,9 +5,12 @@ def app():
     with st.container():
         #Website
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         #PART 1) OUR MISSION
         mis_col1, mis_col2 = st.columns(2)
 =======
+=======
+>>>>>>> Stashed changes
         #Part 1) CHART ILLUSTRATION
         container_chart = st.container()
         with container_chart:
@@ -70,8 +73,14 @@ def app():
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         with abt_team_col2:
             st.image("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") #image for about our team section
+=======
+        with abt_team_col1:
+            st.image("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") #image for about our team section                
+
+>>>>>>> Stashed changes
 =======
         with abt_team_col1:
             st.image("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") #image for about our team section                

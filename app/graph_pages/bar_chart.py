@@ -61,6 +61,7 @@ def app():
         # explain charts
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     if d:
         st.altair_chart(pricechart)
 
@@ -71,6 +72,8 @@ def app():
         </nav>
         """, unsafe_allow_html=True)
 =======
+=======
+>>>>>>> Stashed changes
     elif 0 > is_valid_input:
         #invalid user input is dectected
 

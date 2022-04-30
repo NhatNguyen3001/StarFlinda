@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from prog import check_user_input
 
 
 def app():
@@ -52,8 +53,14 @@ def app():
                     ).properties(height=500, width=60)
 
     ##Price button
+    is_valid_input = check_user_input.valid_ui_bar(d)
+    if d == "":
+        # show default chart
+        st.write(pricechart_default)
 
+        # explain charts
 
+<<<<<<< Updated upstream
     if d:
         st.altair_chart(pricechart)
 
@@ -63,3 +70,34 @@ def app():
         <div style="padding-left: 650px; color: #FFFFFF; "> ©All Rights Reserved By STAFLINDA</div>
         </nav>
         """, unsafe_allow_html=True)
+=======
+    elif 0 > is_valid_input:
+        #invalid user input is dectected
+
+        #error message 
+        INVALID_FORMAT = -1 
+
+        err_msg = "The format is invalid." if is_valid_input == INVALID_FORMAT else "The date is out of scope."
+
+        # show error message if user input is not valid
+        st.error(err_msg + " Please check provided guidance and try again.")
+
+        # show default chart
+        st.write(pricechart_default)
+
+        # explain charts
+
+    elif d and is_valid_input:
+        # show chart if user input is valid
+        st.write(pricechart)
+
+        # explain charts
+
+ 
+    # Footer
+    st.markdown("""
+    <nav class="navbar fixed-bottom navbar-expand-xl navbar-dark" style="background-color: #234362; border-top-style: solid;">
+    <div style="padding-left: 650px; color: #FFFFFF; "> ©All Rights Reserved By STAFLINDA</div>
+    </nav>
+    """, unsafe_allow_html=True)
+>>>>>>> Stashed changes

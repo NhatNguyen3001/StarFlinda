@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 # SET NAVIGATION BAR
 with st.sidebar:
     choose = option_menu("Menu", ["HOME", "DATA SEARCH", 
-                                    "ㄴTable", "ㄴLine chart", "ㄴBar chart", "ㄴPie chart", "ㄴMap", 
+                                    "ㄴTable", "ㄴBar chart", "ㄴPie chart", "ㄴPlot chart", "ㄴMap", 
                                     "DATA COMPARISION", "CONTACT US"],
                          icons=['house', 'search', 
                                 'bar chart', 'bar chart', 'bar chart', 'bar chart', 'bar chart', 

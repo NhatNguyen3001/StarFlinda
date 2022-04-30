@@ -171,11 +171,93 @@ def app():
         final_class = chosen_class[find_data]
         final_price = chosen_price[find_data]
 
-        st.text("Date of flight: {}".format(final_date))
-        st.text("Airlines: {}".format(final_airlines))
-        st.text("ch code: {}".format(final_ch_code))
-        st.text("num_code: {}".format(final_num_code))
-        st.text("Class: {}".format(final_class))
-        st.text("Departed from: {}".format(final_departure))
-        st.text("Arrive at: {}".format(final_arrival))
-        st.text("Cost: {}".format(final_price))
+        #display ticket
+        st.markdown("""
+                        <style>
+                            div {
+                                box-sizing: border-box;
+                                -moz-box-sizing: border-box;
+                                -webkit-box-sizing: border-box;
+                                color: black;
+                                
+                            }
+
+                            .container, .topBox, .bottomBox,
+                            .flightNumBox, .detailBox, .detailSub,
+                            .item1, .item2 {display: flex; }
+
+                            .container, .flightNumBox, .detailBox{flex-direction: column;}
+                            
+                            .container {
+                                        margin: 3% 10%;
+                                        height: 200px;
+                                        max-width: 200px;
+                                        min-width: 1000px;
+                                        height: 300px;
+                                        background-color: beige;}
+                            
+                            .topBox{height: 20%;
+                                    margin: 5px 0%;
+                                    margin-bottom: 0;}
+                            .bottomBox{height: 80%; }
+
+                            .icon{width: 20%;}
+                            .airline{width: 80%; text-align: center; font-weight: bolder; font-size: 1.5rem;}
+
+                            .flightNumBox{width: 20%;}
+                            .detailBox{width: 75%; padding: 0px 10px;}
+
+                            .title{height:30%; background-color: rgba(243, 200, 44, 0.45); padding: 0% 25%; text-align: center;}
+                            .flightCode{height: 70%; padding: 25%;}
+                            
+                            .detailSub {height: 35%;}
+                            .top {height: 30%}
+                            .item1, .item2 {width: 50%; justify-content: space-between;}
+                            .detailTitle, .detailVar {padding:3px;}
+                            .detailTitle {font-size: 1.2em; font-weight: 550; width: 60%;}
+                            .detailVar{width: 35%;}      
+                        </style>
+                        <body>
+                            <div class = "container" style="border: 5px solid black;">
+                                <div class = "topBox" style="border-bottom: 3px solid black;">
+                                    <div class = "icon"><img src="lib/img/plane-icon-png-21.jpg" alt=""></div>
+                                    <div class = "airline" > """ + str(final_airlines) +""" </div>
+                                </div>
+                                <div class = "bottomBox">
+                                    <div class = "flightNumBox">
+                                        <div class = "title" style="border-bottom: 3px solid black;">FLIGHT NUMBER</div>
+                                        <div class = "flightCode">"""+ str(final_ch_code) + str(final_num_code) + """</div>
+                                    </div>
+                                    <div class = "detailBox"  style="border-left: 3px solid black;">
+                                        <div class = "detailSub top">
+                                            <div class = "item1">
+                                                <div class = "detailTitle">Date: </div>
+                                                <div class = "detailVar">""" + str(final_date) +"""</div>
+                                            </div>
+                                            <div class = "item2"></div>
+                                        </div>
+                                        <div class = "detailSub">
+                                            <div class = "item1">
+                                                <div class = "detailTitle">Arrivial city: </div>
+                                                <div class = "detailVar">""" + str(final_arrival) +"""</div>
+                                            </div>
+                                            <div class = "item2">
+                                                <div class = "detailTitle">Departure city: </div>
+                                                <div class = "detailVar">""" + str(final_departure) +"""</div>
+                                            </div>
+                                        </div>
+                                        <div class = "detailSub">
+                                            <div class = "item1">
+                                                <div class = "detailTitle">Cost: </div>
+                                                <div class = "detailVar">""" + str(final_price) +"""</div>
+                                            </div>
+                                            <div class = "item2">
+                                                <div class = "detailTitle">Class: </div>
+                                                <div class = "detailVar">""" + str(final_class) +"""</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </body>
+                    """, unsafe_allow_html=True)

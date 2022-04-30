@@ -28,14 +28,6 @@ def app():
      
         #PART 2) OUR MISSION
         mis_col1, mis_col2 = st.columns([1,1.5])
-
-
-        with mis_col1:
-            st.image("https://images.unsplash.com/photo-1476304884326-cd2c88572c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80") #image for our mission
-
-        mis_col1, mis_col2 = st.columns([1,1.5])
-
-
         with mis_col1:
             st.header("Background")
             st.write("""
@@ -63,6 +55,8 @@ def app():
         #PART 3) ABOUT US
         abt_team_col1, abt_team_col2 = st.columns(2)
 
+        with abt_team_col1:
+            st.image("https://images.unsplash.com/photo-1476304884326-cd2c88572c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80") #image for our mission
         with abt_team_col2:
             st.header("About our team")
             st.write("""Our team has begun with a small project at the RMIT Vietnam university. 

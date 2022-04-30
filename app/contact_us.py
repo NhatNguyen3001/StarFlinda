@@ -4,6 +4,19 @@ from prog import make_email
 
 # functions
 def app():
+
+     # Button css
+    buttoncss = st.markdown("""
+    <style>
+    div.stButton > button:first-child {
+        width: 480px;
+        height:40px;
+        justify-content: center;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 0.8rem;
+    }
+    </style>""", unsafe_allow_html=True)
+
     with st.container():
         # Top part
         ui_col, st_col = st.columns(2)
@@ -34,22 +47,22 @@ def app():
             st.write("""
                         Please fill up the form. Out team will get back to you within 48 hours.\n\n\n
 
-                        Phone number: +0123 4567 8910\n\n
+                        **Phone number:** +0123 4567 8910\n\n
 
-                        Email: support_team@StaFiIndia.com\n\n
+                        **Email:** support_team@StaFiIndia.com\n\n
 
-                        Addreess: 457-89, 254 Street, District 7
+                        **Addreess:** 457-89, 254 Street, District 7
             """)
 
             st.header("Working hours")
             st.write("""
-                        Monday: 9 AM - 5 PM \n
-                        Tuesday: 9 AM - 5 PM \n
-                        Wednesday: 9 AM - 5 PM \n
-                        Thursday: 9 AM - 5 PM \n
-                        Friday: 9 AM - 5 PM \n
-                        Saturday: 10 AM - 5 PM \n
-                        Sunday: 10 AM - 3 PM \n
+                        **Monday:** 9 AM - 5 PM \n
+                        **Tuesday:** 9 AM - 5 PM \n
+                        **Wednesday:** 9 AM - 5 PM \n
+                        **Thursday:** 9 AM - 5 PM \n
+                        **Friday:** 9 AM - 5 PM \n
+                        **Saturday:** 10 AM - 5 PM \n
+                        **Sunday:** 10 AM - 3 PM \n
             """)
 
 

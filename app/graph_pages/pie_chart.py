@@ -4,14 +4,9 @@ from prog import make_pie_chart
 
 
 def app():
+
+    st.title("Pie chart")
     with st.container():
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        st.title("Pie chart")
-        st.write("description of pie chart")
-=======
-=======
->>>>>>> Stashed changes
         st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
 
                     Guide
@@ -19,10 +14,7 @@ def app():
                     Step 2) Check out a beautiful pie chart StaFiIndia provide.
                     Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
                     """)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 
     with st.container():
         user_opt = st.selectbox("Pie chart about:",

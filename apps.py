@@ -1,7 +1,7 @@
 from numpy import char
 import streamlit as st
 from app import compare_tickets, contact_us, homepage, search2
-from app.graph_pages import table, bar_chart, pie_chart, map
+from app.graph_pages import table, bar_chart, pie_chart, map, interactive_bar
 from streamlit_option_menu import option_menu
 
 #build webpage
@@ -45,6 +45,8 @@ elif choose ==  "ㄴPlot chart":
     table.app()
 elif choose ==  "ㄴMap":
     map.app()
+elif choose ==  "ㄴAirline/Price":
+    interactive_bar.app()
 elif choose == "DATA COMPARISION":
     compare_tickets.app()
 elif choose == "CONTACT US":

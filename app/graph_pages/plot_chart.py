@@ -21,5 +21,5 @@ def app():
         alt.Color('class'),
         tooltip = ['date', 'ch_code', 'from', 'to']
     ).transform_filter(alt.FieldEqualPredicate(field='airline', equal=d)).properties(height=850, width=850, title = 'Plot chart').interactive()
-    
+
     st.altair_chart(scatter)

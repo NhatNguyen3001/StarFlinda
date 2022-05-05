@@ -20,7 +20,14 @@ def app():
             to acquire specific data that the user desired. 
             You can also search the data and compare two data. Feel free to enjoy our services and contact us if you need any help.
             """)
-        
+
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
+
 
 
         #Part 1) SERVICES ILLUSTRATION
@@ -31,6 +38,14 @@ def app():
             st.write("description")
 
 
+        st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+        """, unsafe_allow_html=True)
+
+
         #Part 1-1) EXPLAIN EACH CHART
         with st.container():
             st.title("Charts detail")
@@ -38,9 +53,8 @@ def app():
 
             # TABLE
             chart1_col1, chart1_col2 = st.columns(2)
-
-            st.title("1. Table")
             with chart1_col1:
+                st.title("1. Table")
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6" , caption = "Table")
 
 
@@ -62,14 +76,20 @@ def app():
                         Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
                         """, styles= {"text-align": "justify"})
                                 
-
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
 
 
             # BAR CHART
             chart2_col1, chart2_col2 = st.columns(2)
 
-            st.title("2. Bar chart")
+            
             with chart2_col1:
+                st.title("2. Bar chart")
                 st.header("What data does staFiIdia show?")
                 st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
                         styles= {"text-align": "justify"})
@@ -91,13 +111,20 @@ def app():
 
             with chart2_col2:
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
-
+            
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
 
             # PIE CHART
             chart3_col1, chart3_col2 = st.columns(2)
 
-            st.title("3. Pie chart")
+            
             with chart3_col1:
+                st.title("3. Pie chart")
                 st.image("https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.15752-9/279013032_415291103297834_8777289493214965047_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=XO9DxnCSsdEAX9W9nFR&_nc_ht=scontent.fsgn13-2.fna&oh=03_AVK1_vcKQnjKoChz0eGBLU-56lr3dqdOqz82LABcEoghJA&oe=6292477F",caption = "Bar chart")
 
             with chart3_col2:
@@ -117,12 +144,21 @@ def app():
                         Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
                         Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
                         """, styles= {"text-align": "justify"})
-                                
+
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
+
+
             # PLOT CHART
             chart4_col1, chart4_col2 = st.columns(2)
 
-            st.title("4. Plot chart")
+            
             with chart4_col1:
+                st.title("4. Plot chart")
                 st.header("What data does staFiIdia show?")
                 st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
                         styles= {"text-align": "justify"})
@@ -143,13 +179,21 @@ def app():
 
             with chart4_col2:
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
-                
+
+
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)                
 
             # MAP
             chart5_col1, chart5_col2 = st.columns(2)
 
-            st.title("5. Map")
+           
             with chart5_col1:
+                st.title("5. Map")
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
 
             with chart5_col2:
@@ -170,11 +214,20 @@ def app():
                         Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
                         """, styles= {"text-align": "justify"})
                                 
-                
+
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
+
+
         #Part 1-2) EXPLAIN DATA SEARCH PAGE
 
-            st.title("DATA SEARCH")
+            
             with st.container():
+                st.title("DATA SEARCH")
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
 
             with st.container():
@@ -195,12 +248,20 @@ def app():
                         Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
                         """, styles= {"text-align": "justify"})
 
+
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
 
 
         #Part 1-3) EXPLAIN DATA COMPARE PAGE
 
-            st.title("DATA COMPARISION")
+            
             with st.container():
+                st.title("DATA COMPARISION")
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
 
             with st.container():
@@ -221,7 +282,12 @@ def app():
                         Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
                         """, styles= {"text-align": "justify"})
 
-
+            st.markdown("""
+                    <body>
+                        <div class = "empty" style="padding: 50px;">
+                        </div>
+                    </body>
+            """, unsafe_allow_html=True)
 
 
 
@@ -252,6 +318,14 @@ def app():
         with mis_col2:
             st.image("https://dashboard.iammedia.am/assets/uploads/posts/thumbnails/image-1593853889761.jpg") #image for our mission
 
+        st.markdown("""
+                <body>
+                    <div class = "empty" style="padding: 50px;">
+                    </div>
+                </body>
+        """, unsafe_allow_html=True)
+
+
         #PART 3) ABOUT US
         abt_team_col1, abt_team_col2 = st.columns(2)
 
@@ -263,4 +337,5 @@ def app():
             Team members took an interest in analysing data and 
             getting predictions and suggestions based on the data by machine learning. 
             This experience motivated the founding of a start-up which is StaFiIndia.""")
+
 

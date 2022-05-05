@@ -2,23 +2,40 @@ import streamlit as st
 
 
 def app():
+
+    # apply css file
+    with open('lib//style//homepage.css') as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+
     with st.container():
         #Website
         #Part 0) Introduction 
         with st.container():
             st.title("Welcome to StaFiIndia")
-            st.write("description")
+            st.image("lib/img/welcome.jpg"  )
+            st.write("""
+            Hello, welcome to StaFiIndia. Our company focuses on data visualization of the India local flight ticket information. 
+            The company provides data in various ways such as graphs, tables and charts and the user is allowed to take granular control 
+            to acquire specific data that the user desired. 
+            You can also search the data and compare two data. Feel free to enjoy our services and contact us if you need any help.
+            """)
+        
+
 
         #Part 1) SERVICES ILLUSTRATION
         container_chart = st.container()
         with container_chart:
+<<<<<<< Updated upstream
             st.title("Beutiful data visualization")
+=======
+            st.title("Beautiful data visualization")
+            st.image("lib/img/statics.jpg", width=500, caption = "Various charts and graphs")
+>>>>>>> Stashed changes
             st.write("description")
-            chart_col1, chart_col2 = st.columns([4.6,1])
 
-            with chart_col1:
-                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
 
+<<<<<<< Updated upstream
             with chart_col2:
                 st.image("https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.15752-9/279013032_415291103297834_8777289493214965047_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=XO9DxnCSsdEAX9W9nFR&_nc_ht=scontent.fsgn13-2.fna&oh=03_AVK1_vcKQnjKoChz0eGBLU-56lr3dqdOqz82LABcEoghJA&oe=6292477F",caption = "Bar chart")
                 st.image("https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.15752-9/278934108_1026095314973209_571930375849437800_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=v240QdUcFUQAX8aosz1&_nc_oc=AQnnbkBWC7GzjZYFb2gfOEu8fiJ2_nlju1uoi9hzRCaMklJChd8zNGsj97GAvG0NVKY0a1BlcGr5EVo9GSYaivyZ&_nc_ht=scontent.fsgn8-1.fna&oh=03_AVIWlC02oGCjT8sIG3SFHNzkYWVXfUJ1DBm9ziEjTvhaYA&oe=62944AD8",caption = "Pie chart")
@@ -31,6 +48,8 @@ def app():
             with chart_col4:
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Map")
      
+=======
+>>>>>>> Stashed changes
         #Part 1-1) EXPLAIN EACH CHART
         with st.container():
             st.title("Charts detail")
@@ -41,7 +60,11 @@ def app():
 
             st.title("1. Table")
             with chart1_col1:
+<<<<<<< Updated upstream
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+=======
+                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6" , caption = "Table")
+>>>>>>> Stashed changes
 
 
             with chart1_col2:
@@ -98,7 +121,11 @@ def app():
 
             st.title("3. Pie chart")
             with chart3_col1:
+<<<<<<< Updated upstream
                 st.image("https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.15752-9/278934108_1026095314973209_571930375849437800_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=v240QdUcFUQAX8aosz1&_nc_oc=AQnnbkBWC7GzjZYFb2gfOEu8fiJ2_nlju1uoi9hzRCaMklJChd8zNGsj97GAvG0NVKY0a1BlcGr5EVo9GSYaivyZ&_nc_ht=scontent.fsgn8-1.fna&oh=03_AVIWlC02oGCjT8sIG3SFHNzkYWVXfUJ1DBm9ziEjTvhaYA&oe=62944AD8",caption = "Pie chart")
+=======
+                st.image("https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.15752-9/279013032_415291103297834_8777289493214965047_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=XO9DxnCSsdEAX9W9nFR&_nc_ht=scontent.fsgn13-2.fna&oh=03_AVK1_vcKQnjKoChz0eGBLU-56lr3dqdOqz82LABcEoghJA&oe=6292477F",caption = "Bar chart")
+>>>>>>> Stashed changes
 
             with chart3_col2:
                 st.header("What data does staFiIdia show?")

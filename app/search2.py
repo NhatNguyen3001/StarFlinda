@@ -130,6 +130,16 @@ def app():
     price = read_price("lib//data//data.txt")
     class_of_flight = read_class("lib//data//data.txt")
 
+    st.title("Data Search")
+    with st.container():
+        st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
+
+                    Guide
+                    Step 1) Please choose one of the data types on the select box.
+                    Step 2) Check out a beautiful pie chart StaFiIndia provide.
+                    Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
+                    """)
+
     departure_input = st.selectbox("Select your departure", ("Bangalore", "Delhi",
                                                             "Kolkata", "Chennai",
                                                             "Hyderabad", "Mumbai"))

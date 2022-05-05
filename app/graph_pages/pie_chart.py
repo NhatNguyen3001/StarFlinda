@@ -4,6 +4,9 @@ from prog import make_pie_chart
 
 
 def app():
+    # apply css file
+    with open('lib//style//pie_chart.css') as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
     st.title("Pie chart")
     with st.container():

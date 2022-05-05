@@ -4,20 +4,9 @@ from prog import make_pie_chart
 
 
 def app():
-    # apply css file
-    with open('lib//style//pie_chart.css') as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-    st.title("Pie chart")
     with st.container():
-        st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
-
-                    Guide
-                    Step 1) Please choose one of the data types on the select box.
-                    Step 2) Check out a beautiful pie chart StaFiIndia provide.
-                    Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
-                    """)
-
+        st.title("Pie chart")
+        st.write("description of pie chart")
 
     with st.container():
         user_opt = st.selectbox("Pie chart about:",
@@ -60,4 +49,3 @@ def app():
                         From 17:00 to 20:59: Evening \n
                         From 21:00 to 04:59: Night \n
                     """)
-

@@ -6,6 +6,17 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def app():
+    st.title("Plot chart")
+    with st.container():
+        st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
+
+                    Guide
+                    Step 1) Please choose one of the data types on the select box.
+                    Step 2) Check out a beautiful pie chart StaFiIndia provide.
+                    Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
+                    """)
+
+
     csv_url ='https://raw.githubusercontent.com/Lee-GaIn/-BIIT-Project/main/lib/data/data.csv'
     df = pd.read_csv(csv_url)
     d = st.selectbox("Pie chart about:",

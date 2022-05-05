@@ -12,6 +12,17 @@ def app():
         with open('lib//style//compare_tickets_style.css') as f:
             st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+    st.title("Data Comparision")
+    with st.container():
+        st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
+
+                    Guide
+                    Step 1) Please choose one of the data types on the select box.
+                    Step 2) Check out a beautiful pie chart StaFiIndia provide.
+                    Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
+                    """)
+
+
         def_data = {'The first ticket ID': ['Vistara', '4792', '24/03/22', 'Bangalore', 'Mumbai', '19:55',
                                             '14:30', 'Economy', '18h 35m', '1-stop', 'UK-893'],
 

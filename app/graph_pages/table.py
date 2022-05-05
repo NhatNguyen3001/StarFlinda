@@ -9,7 +9,14 @@ from PIL import Image
 def app():
 
     st.title("Table")
-    st.write("View all the flights information.")
+    with st.container():
+        st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
+
+                    Guide
+                    Step 1) Please choose one of the data types on the select box.
+                    Step 2) Check out a beautiful pie chart StaFiIndia provide.
+                    Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
+                    """)
     # LOAD DATA
 
     data = pd.read_csv("lib//data//data.csv", index_col=0)

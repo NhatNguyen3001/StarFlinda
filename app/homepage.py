@@ -264,4 +264,3 @@ def app():
             getting predictions and suggestions based on the data by machine learning. 
             This experience motivated the founding of a start-up which is StaFiIndia.""")
 
-

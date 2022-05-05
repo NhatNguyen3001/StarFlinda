@@ -202,9 +202,9 @@ def app():
                                         margin: 3% 10%;
                                         height: 200px;
                                         max-width: 200px;
-                                        min-width: 1000px;
+                                        min-width: 900px;
                                         height: 300px;
-                                        background-color: beige;}
+                                        background-color: #FFFFFF;}
                             
                             .topBox{height: 20%;
                                     margin: 5px 0%;
@@ -217,25 +217,25 @@ def app():
                             .flightNumBox{width: 20%;}
                             .detailBox{width: 75%; padding: 0px 10px;}
 
-                            .title{height:30%; background-color: rgba(243, 200, 44, 0.45); padding: 0% 25%; text-align: center;}
-                            .flightCode{height: 70%; padding: 25%;}
+                            .title{height:30%; background-color: #FFB039; padding: 0% 25%; text-align: center; font-size: 120%;}
+                            .flightCode{height: 70%; padding: 25%; text-align: center; font-size: 200%;}
                             
                             .detailSub {height: 35%;}
                             .top {height: 30%}
                             .item1, .item2 {width: 50%; justify-content: space-between;}
-                            .detailTitle, .detailVar {padding:3px;}
-                            .detailTitle {font-size: 1.2em; font-weight: 550; width: 60%;}
+                            .detailTitle, .detailVar {padding:20px;}
+                            .detailTitle {font-size: 1.2em; font-weight: 550; width: 60%; font-size: 140%;}
                             .detailVar{width: 35%;}      
                         </style>
                         <body>
                             <div class = "container" style="border: 5px solid black;">
                                 <div class = "topBox" style="border-bottom: 3px solid black;">
-                                    <div class = "icon"><img src="lib/img/plane-icon-png-21.jpg" alt=""></div>
+                                    <div class = "icon" style="padding-left:10px; padding-bottom:10px;"><img src="https://cdn.discordapp.com/attachments/872860802107990116/970964147971952700/transport-airplane-takeoff-icon--android-iconset--icons8-2_1.png" alt=""></div>
                                     <div class = "airline" > """ + str(final_airlines) +""" </div>
                                 </div>
                                 <div class = "bottomBox">
                                     <div class = "flightNumBox">
-                                        <div class = "title" style="border-bottom: 3px solid black;">FLIGHT NUMBER</div>
+                                        <div class = "title" style="border-bottom: 3px solid black; font-weight: bold;">FLIGHT NUMBER</div>
                                         <div class = "flightCode">"""+ str(final_ch_code) + str(final_num_code) + """</div>
                                     </div>
                                     <div class = "detailBox"  style="border-left: 3px solid black;">

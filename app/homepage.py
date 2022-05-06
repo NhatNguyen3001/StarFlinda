@@ -91,7 +91,7 @@ def app():
                 
 
             with chart2_col2:
-                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+                st.image("https://cdn.discordapp.com/attachments/872860802107990116/972010958769766410/Number_of_flight.PNG",caption = "Bar chart")
             
             st.markdown("""
                     <body>
@@ -106,7 +106,7 @@ def app():
             
             with chart3_col1:
                 st.title("3) Pie chart")
-                st.image("https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.15752-9/279013032_415291103297834_8777289493214965047_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=XO9DxnCSsdEAX9W9nFR&_nc_ht=scontent.fsgn13-2.fna&oh=03_AVK1_vcKQnjKoChz0eGBLU-56lr3dqdOqz82LABcEoghJA&oe=6292477F",caption = "Bar chart")
+                st.image("https://cdn.discordapp.com/attachments/872860802107990116/972010827915878440/Pie_chart.PNG",caption = "Pie chart")
 
             with chart3_col2:
                 st.header("What data does staFiIdia show?")
@@ -159,7 +159,7 @@ def app():
                                 
 
             with chart4_col2:
-                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+                st.image("https://cdn.discordapp.com/attachments/872860802107990116/970884752187994122/plot.PNG",caption = "Plot")
 
 
             st.markdown("""
@@ -175,7 +175,7 @@ def app():
            
             with chart5_col1:
                 st.title("5) Map")
-                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+                st.image("https://cdn.discordapp.com/attachments/872860802107990116/970885256729231380/unknown.png",caption = "Map")
 
             with chart5_col2:
                 st.header("What data does staFiIdia show?")
@@ -209,7 +209,7 @@ def app():
             
             with st.container():
                 st.title("2. DATA SEARCH")
-                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+                st.image("https://cdn.discordapp.com/attachments/872860802107990116/970959338598432778/unknown.png",caption = "Data search")
 
             with st.container():
                 st.header("What data does staFiIdia show?")
@@ -243,7 +243,7 @@ def app():
             
             with st.container():
                 st.title("3. DATA COMPARISON")
-                st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
+                st.image("https://cdn.discordapp.com/attachments/872860802107990116/970948034500362250/unknown.png",caption = "Data comparision")
 
             with st.container():
                 st.header("What data does staFiIdia show?")

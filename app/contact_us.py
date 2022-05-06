@@ -73,16 +73,21 @@ def app():
         sttm_col1, sttm_col2, sttm_col3 = st.columns(3)
         with sttm_col1:
             member_profile1 = Image.open("lib//img//support_team_member1.png")
-            # ref https://pixabay.com/photos/woman-asian-model-portrait-girl-5772021/
             st.image(member_profile1,
                     caption="Phan Do Ngoc Linh")
         with sttm_col2:
             member_profile1 = Image.open("lib//img//support_team_member2.png")
-            # ref https://pixabay.com/photos/smile-work-business-success-5047506/
             st.image(member_profile1,
                     caption="Nguyen Dang Nhat",)
         with sttm_col3:
             member_profile1 = Image.open("lib//img//support_team_member3.png")
-            # ref https://pixabay.com/photos/business-lady-woman-young-woman-3560921/
             st.image(member_profile1,
                     caption="Vo Ngoc Diem Tien")
+
+
+        # Footer
+    st.markdown("""
+    <nav class="navbar fixed-bottom navbar-expand-xl navbar-dark" style="background-color: #234362; border-top-style: solid;">
+    <div style="padding-left: 650px; color: #FFFFFF; "> ©All Rights Reserved By STAFLINDA</div>
+    </nav>
+    """, unsafe_allow_html=True)

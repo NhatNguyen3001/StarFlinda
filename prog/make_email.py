@@ -111,7 +111,13 @@ def build_email(mode, to_email, inquiry_info):
     return msg
 
 def send_email(f_name, l_name, user_email, inquiry_title, detail):
-    # REF : https://www.tutorialspoint.com/python/python_sending_email.htm
+    ###################################################
+    #Title: Python - Sending Email using SMTP
+    #Author: tutorialspoint
+    #Date: (Unknown)
+    #Code version: (Unknown)
+    #Availability: https://www.tutorialspoint.com/python/python_sending_email.htm (Accessed 6 May 2022)
+    ###################################################
 
     GG_PORT_NUM = 587 #google smpt server port number
     #admin email info

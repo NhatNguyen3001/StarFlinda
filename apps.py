@@ -1,8 +1,9 @@
-from numpy import char
 import streamlit as st
-from app import compare_tickets, contact_us, homepage, search2
-from app.graph_pages import table, plot_chart,bar_chart, pie_chart, map, interactive_bar
+from app import compare_tickets, contact_us, homepage, search2, about_us
+from app.graph_pages import table, plot_chart,bar_chart, pie_chart, map
 from streamlit_option_menu import option_menu
+
+from etc import interactive_bar
 
 #build webpage
 st.set_page_config(layout="wide")
@@ -11,16 +12,23 @@ with open ('style.css') as f:
     st.markdown(f'<style>{f.read()}<\style>',unsafe_allow_html=True)
 
 
-# REF : https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py
+###################################################
+#Title: streamlit_all_gallery
+#Author: insightsbees
+#Date: 18 Feb 2022
+# Code version: (Unknown)
+#Availability: https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py (Accessed 6 May 2022)
+###################################################
+
 
 # SET NAVIGATION BAR
 with st.sidebar:
     choose = option_menu("Menu", ["HOME", "DATA SEARCH", 
                                     "ㄴTable", "ㄴBar chart", "ㄴPie chart", "ㄴPlot chart", "ㄴMap", 
-                                    "DATA COMPARISION", "CONTACT US"],
+                                    "DATA COMPARISION", "DATA PREDICTION", "ABOUT US", "CONTACT US"],
                          icons=['house', 'search', 
                                 'bar chart', 'bar chart', 'bar chart', 'bar chart', 'bar chart', 
-                                'person lines fill'],
+                                'square-half','graph-up-arrow','question-circle', 'person-lines-fill'],
                          menu_icon="app-indicator", default_index=0,
                          styles={
                             "container": {"padding": "5!important", "background-color": "#234362!important"},
@@ -49,6 +57,10 @@ elif choose ==  "ㄴAirline/Price":
     interactive_bar.app()
 elif choose == "DATA COMPARISION":
     compare_tickets.app()
+elif choose == "DATA PREDICTION":  #Nhat's page
+    contact_us.app() 
+elif choose == "ABOUT US":
+    about_us.app()
 elif choose == "CONTACT US":
     contact_us.app()
     

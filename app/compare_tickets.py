@@ -12,7 +12,7 @@ def app():
         with open('lib//style//compare_tickets_style.css') as f:
             st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-    st.title("Data Comparision")
+    st.title("DATA COMPARISON")
     with st.container():
         st.write("""
                     StaFiIdia provides a data comparison service for two tickets' information.
@@ -103,10 +103,6 @@ def app():
 
                 st.error(msg_invalid_tk +
                          " ticket ID is invalid. Please check again.")
-
-        # Quick look and horizontal line
-        st.write("Quick Look")
-        st.markdown("---")
 
         # PART 3) displaying data
         st.table(compare_df)

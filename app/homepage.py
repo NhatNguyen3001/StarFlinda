@@ -29,28 +29,9 @@ def app():
         """, unsafe_allow_html=True)
 
 
-
-        #Part 1) SERVICES ILLUSTRATION
-        container_chart = st.container()
-        with container_chart:
-            st.title("1. Beautiful data visualization")
-            st.image("lib/img/statics.jpg", width=500, caption = "Various charts and graphs")
-            st.write("description")
-
-
-        st.markdown("""
-                    <body>
-                        <div class = "empty" style="padding: 50px;">
-                        </div>
-                    </body>
-        """, unsafe_allow_html=True)
-
-
+        st.title("1. DATA VISUALIZATION")
         #Part 1-1) EXPLAIN EACH CHART
-        with st.container():
-            st.title("Charts detail")
-            
-
+        with st.container():        
             # TABLE
             chart1_col1, chart1_col2 = st.columns(2)
             with chart1_col1:
@@ -261,7 +242,7 @@ def app():
 
             
             with st.container():
-                st.title("3. DATA COMPARISION")
+                st.title("3. DATA COMPARISON")
                 st.image("https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.15752-9/279376534_566833528012167_1745783498800769969_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=doGDvopum8gAX8_seOU&_nc_ht=scontent.fsgn13-1.fna&oh=03_AVIP60MQ8WFFxJO1Uylrf1ZiueQEmTmlVNtfD5tFy8lUwQ&oe=6292E5E6",caption = "Table")
 
             with st.container():

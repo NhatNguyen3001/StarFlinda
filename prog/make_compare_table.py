@@ -1,5 +1,5 @@
+from ast import Try
 import csv
-from numpy import True_
 import pandas as pd
 
 
@@ -78,14 +78,15 @@ def remove_spaces(str):
     return res
 
 def is_valid_ticket_idx(ticket_id):
-    num_of_items = get_num_of_items()
-    temp = int(ticket_id)
+    try:
+        num_of_items = get_num_of_items()
+        temp = int(ticket_id)
 
-    if (0 <= temp and temp <= num_of_items):
-        return True
+        if (0 <= temp and temp <= num_of_items):
+            return True
+    except Exception as e:
+        return False
 
-
-    return False
 
 
 def get_num_of_items():
@@ -102,7 +103,7 @@ def get_num_of_items():
 
 
 def is_valid_ticket(ticket_str):
-    if (not is_valid_ticket_idx(ticket_str)) or (not ticket_str.isnumeric()):
+    if ((not ticket_str.isnumeric() or not is_valid_ticket_idx(ticket_str))):
         return False
 
     return True

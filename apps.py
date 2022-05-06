@@ -3,7 +3,7 @@ from app import compare_tickets, contact_us, homepage, search2, about_us
 from app.graph_pages import table, plot_chart,bar_chart, pie_chart, map
 from streamlit_option_menu import option_menu
 
-from etc import interactive_bar
+from etc import interactive_bar #[NOTE!!]
 
 #build webpage
 st.set_page_config(layout="wide")
@@ -25,7 +25,7 @@ with open ('style.css') as f:
 with st.sidebar:
     choose = option_menu("Menu", ["HOME", "DATA SEARCH", 
                                     "ㄴTable", "ㄴBar chart", "ㄴPie chart", "ㄴPlot chart", "ㄴMap", 
-                                    "DATA COMPARISION", "DATA PREDICTION", "ABOUT US", "CONTACT US"],
+                                    "DATA COMPARISON", "DATA PREDICTION", "ABOUT US", "CONTACT US"],
                          icons=['house', 'search', 
                                 'bar chart', 'bar chart', 'bar chart', 'bar chart', 'bar chart', 
                                 'square-half','graph-up-arrow','question-circle', 'person-lines-fill'],
@@ -53,9 +53,9 @@ elif choose ==  "ㄴPlot chart":
     plot_chart.app()
 elif choose ==  "ㄴMap":
     map.app()
-elif choose ==  "ㄴAirline/Price":
-    interactive_bar.app()
-elif choose == "DATA COMPARISION":
+# elif choose ==  "ㄴAirline/Price":   #[NOTE!!]
+#     interactive_bar.app()
+elif choose == "DATA COMPARISON":
     compare_tickets.app()
 elif choose == "DATA PREDICTION":  #Nhat's page
     contact_us.app() 

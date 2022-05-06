@@ -8,13 +8,16 @@ import matplotlib.pyplot as plt
 def app():
     st.title("Plot chart")
     with st.container():
-        st.write("""StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.
-
-                    Guide
-                    Step 1) Please choose one of the data types on the select box.
-                    Step 2) Check out a beautiful pie chart StaFiIndia provide.
-                    Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.
+        st.write("""
+                    StaFiIdia provides a data comparison service for two tickets' information.
+                    It enables users to see details of the ticket and compare two tickets by each element.
                     """)
+        st.header("Guide")
+        st.write("""
+                Step 1) Put the first ticket id and the second ticket id on the input box.\n
+                Step 2) Click the submit button.\n
+                Step 3) See the result.
+                """)
 
 
     csv_url ='https://raw.githubusercontent.com/Lee-GaIn/-BIIT-Project/main/lib/data/data.csv'

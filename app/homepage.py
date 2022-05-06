@@ -266,20 +266,20 @@ def app():
 
             with st.container():
                 st.header("What data does staFiIdia show?")
-                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                st.write("StaFiIdia provides a data comparison service for two tickets' information. It enables users to see details of the ticket and compare two tickets by each element.", 
                         styles= {"text-align": "justify"})
                 
                 st.header("What are things that you can control?")
-                st.write("""You can select one data type. 
-                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
-                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                st.write("""You can put the ticket id into the input box. 
+                            Considering the data our company provides, the valid ticket id is from 1 to 500.
+                            You can search for a ticket id on the 'table' page.""" , 
                             styles= {"text-align": "justify"})
                 
                 st.header("Guide")
                 st.write("""
-                        Step 1) Please choose one of the data types on the select box.\n
-                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
-                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        Step 1) Put the first ticket id and the second ticket id on the input box.\n
+                        Step 2) Click the submit button.\n
+                        Step 3) See the result.\n
                         """, styles= {"text-align": "justify"})
 
             st.markdown("""
@@ -291,7 +291,7 @@ def app():
 
 
 
-        #Part 1-3) EXPLAIN DATA COMPARE PAGE
+        #Part 1-3) EXPLAIN DATA PREDICTION PAGE
 
             
             with st.container():

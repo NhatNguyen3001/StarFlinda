@@ -28,7 +28,7 @@ def app():
     df = pd.read_csv(csv)
 
     st.write("The bar chart show the Number of flight which each airline branches has in business and economy on a specific date from the user input. The statistic can only be view in latest 3 months.")
-    st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **For example:** Today is 30th April 2022, the statistic can be view in any date from March to May 2022.")
+    st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **For example:** Today is 13th May 2022, the statistic can be view in any date from March to May 2022.")
     st.text("Please input following format: dd/mm/yyyy")
     # Declair text input
     d = st.text_input('**Choose the date**', max_chars = 10)

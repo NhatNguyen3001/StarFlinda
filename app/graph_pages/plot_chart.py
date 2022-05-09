@@ -1,10 +1,10 @@
 import altair as alt
 from matplotlib.pyplot import scatter, title, ylim
-matplotlib.use('Agg')
 from numpy import size
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+matplotlib.use('Agg')
 
 def app():
     st.title("Plot chart")

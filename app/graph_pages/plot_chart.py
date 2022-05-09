@@ -1,4 +1,5 @@
 import altair as alt
+import matplotlib
 from matplotlib.pyplot import scatter, title, ylim
 from numpy import size
 import streamlit as st

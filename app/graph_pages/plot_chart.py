@@ -5,6 +5,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 def app():
     st.title("Plot chart")
     with st.container():

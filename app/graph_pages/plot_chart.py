@@ -1,21 +1,18 @@
 import altair as alt
-from matplotlib.pyplot import scatter, title, ylim
-from numpy import size
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 
 def app():
     st.title("Plot chart")
     with st.container():
         st.write("""
-                    StaFiIdia provides a data comparison service for two tickets' information.
-                    It enables users to see details of the ticket and compare two tickets by each element.
+                    Our plot chart provides an analysis of the relationship between price and departure time of the given six airlines. 
+                    In each chart, we compare the prices in business class with those in economy class.
                     """)
         st.header("Guide")
         st.write("""
-                Step 1) Put the first ticket id and the second ticket id on the input box.\n
+                Step 1) Choose which airline you wish to see their ticket prices analysed. \n
                 Step 2) Click the submit button.\n
                 Step 3) See the result.
                 """)

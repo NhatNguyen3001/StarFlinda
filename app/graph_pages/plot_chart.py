@@ -1,6 +1,5 @@
+import _tkinter
 import altair as alt
-import matplotlib
-matplotlib.use('Agg')
 from matplotlib.pyplot import scatter, title, ylim
 from numpy import size
 import streamlit as st

@@ -1,3 +1,4 @@
+import _tkinter
 import streamlit as st
 import matplotlib
 matplotlib.use('Agg')

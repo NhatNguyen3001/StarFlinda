@@ -72,20 +72,17 @@ def app():
             with chart2_col1:
                 st.title("2) Bar chart")
                 st.header("What data does staFiIdia show?")
-                st.write("StaFiIndia provides more than ten pie charts by each data type so that you can acquire the data you want.", 
+                st.write("StaFlinda shows the number of flights which are divided into 'Business' and 'Economy' classes by each airline agency.", 
                         styles= {"text-align": "justify"})
                 
                 st.header("What are things that you can control?")
-                st.write("""You can select one data type. 
-                            Provided data types are 'Date', 'Airline', 'Country code', 'Departure time', 
-                            'Departure city', 'Duration','Stops', 'Arrival time', 'Arrival city', 'Cost' and 'Class'.""" , 
+                st.write("""You can enter the date. The input date from users should be in the valid format dd/mm/yyyy (ex: 04/03/2022).""" , 
                             styles= {"text-align": "justify"})
                 
                 st.header("Guide")
                 st.write("""
-                        Step 1) Please choose one of the data types on the select box.\n
-                        Step 2) Check out a beautiful pie chart StaFiIndia provide.\n
-                        Step 3) More details will be provided when selecting some data types, for example, departure time and arrival time.\n
+                        Step 1) Please enter the valid date in the text box.\n
+                        Step 2) Check the number of flights from the shifted chart.\n
                         """, styles= {"text-align": "justify"})
                                 
                 

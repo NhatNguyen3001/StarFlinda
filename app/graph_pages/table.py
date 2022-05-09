@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
-import altair as alt
-import plotly.express as px
-from PIL import Image
 
 def app():
 

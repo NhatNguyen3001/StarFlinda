@@ -1,14 +1,11 @@
-numpy==1.9.0
 streamlit==1.6.0
 pandas
 streamlit-option-menu
-matplotlib==1.1.1
 Image
 secure-smtplib
 email-to
 streamlit-aggrid
 altair
 streamlit-folium
-scikit-learn
 click==8.0.4
 plotly_express==0.4.0

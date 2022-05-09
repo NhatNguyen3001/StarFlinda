@@ -50,15 +50,16 @@ def app():
             st.image("https://images.unsplash.com/photo-1476304884326-cd2c88572c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80") #image for our mission
         with abt_team_col2:
             st.header("About our team")
-            st.write("""Our team has begun with a small project at the RMIT Vietnam university. 
-            Team members took an interest in analysing data and 
-            getting predictions and suggestions based on the data by machine learning. 
-            This experience motivated the founding of a start-up which is StaFiIndia.""")
+            st.write("""
+            After getting to know each other in course COSC2636, our team realized that everybody shared the same interests in working with datas. 
+            Through several more research, we have decided to create StarFiIndia. Despite the differences in opinions and strong personalities, 
+            our team managed to push those challenges aside to perfect the website, and proudly give you this final product.
+                    """)
 
             st.write("""
             StaFiIndia is the name of the company. 
-            The name is a compound word for Statistic, Flight, and India. 
-            This means our company will make efforts to effectively display statistics related to 
+            This name is a compound word for Statistic, Flight, and India. 
+            It means our company will make efforts to effectively display statistics related to 
             India's domestic airline tickets with fascinating graphics.
             Our company hopes that customers will get the information they want through their services in a short period of time.
             """)

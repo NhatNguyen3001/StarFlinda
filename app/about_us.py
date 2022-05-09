@@ -13,18 +13,19 @@ def app():
         with mis_col1:
             st.header("Background")
             st.write("""
-            EasyJet CEO John Lundgren had a data science team 
-            to create an algorithm that predicted insight on food items, 
-            Southwest Airlines developed a model to forecast monthly fuel consumption. 
-            These examples have proven the demanding need in researching flights. """)
+            We are a team of five ambitious students from RMIT University, majoring in Information Technology. 
+            By enrolling in course COSC2636 - Building IT Systems, with the guidance of professor Shan Chen, 
+            our team has created this Data Analyst Web Application after witnessing the blossoming interest 
+            in ticket research for the past decades.
+                    """)
 
             st.write("""
-            Our objective is to assist flying consumers in checking airline information 
-            in luxury service, premium class flights and low-cost travel. 
-            Ticket price, flight direction, and frequency, which can be displayed 
-            in pre-sorted tables and graphs on a website. 
-            As a result, users can obtain a summary view of flight information 
-            and make more informed decisions""", styles= {"text-align": "justify"})
+            Our objective is to assist people coming from all over the world with different backgrounds in 
+            choosing the most suitable aviation option. From a given dataset, we analyze the prices, 
+            departure time, length of flight, flight directions and so on, so that we can provide users with 
+            as much information as possible. This would help them understand what they are paying for and how 
+            they utilize their budget to have the best service. 
+                    """, styles= {"text-align": "justify"})
 
             st.write("""
             Our team used Streamlit, applying Machine Learning models to process data, make a prediction and suggestion.

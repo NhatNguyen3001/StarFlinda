@@ -1,6 +1,6 @@
 import altair as alt
-matplotlib.use('Agg')
 from matplotlib.pyplot import scatter, title, ylim
+matplotlib.use('Agg')
 from numpy import size
 import streamlit as st
 import pandas as pd

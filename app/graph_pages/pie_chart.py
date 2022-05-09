@@ -1,6 +1,6 @@
 import streamlit as st
-matplotlib.use('Agg')
 import matplotlib.pyplot as plot
+matplotlib.use('Agg')
 from prog import make_pie_chart
 
 

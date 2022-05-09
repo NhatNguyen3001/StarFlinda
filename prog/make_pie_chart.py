@@ -1,6 +1,7 @@
-import matplotlib.pyplot as plot
 import csv
 import math
+import pandas as pd
+
 
 
 def draw_piechart(btn_val):
@@ -12,12 +13,7 @@ def draw_piechart(btn_val):
         labels.append(k)
         ratio.append(v)
 
-
-    
-    plot.pie(ratio, labels = labels, autopct='%1.1f%%', startangle = 90)
-    plot.title(btn_val)
-
-    return plot, etc_items
+    return labels, ratio, etc_items
 
 
 def get_clean_data_by_btn(mode):

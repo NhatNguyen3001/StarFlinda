@@ -3,7 +3,6 @@ from app import compare_tickets, contact_us, homepage, search2, about_us
 from app.graph_pages import table, plot_chart,bar_chart, pie_chart, map
 from streamlit_option_menu import option_menu
 
-from etc import interactive_bar #[NOTE!!]
 
 #build webpage
 st.set_page_config(layout="wide")
@@ -53,8 +52,6 @@ elif choose ==  "ㄴPlot chart":
     plot_chart.app()
 elif choose ==  "ㄴMap":
     map.app()
-# elif choose ==  "ㄴAirline/Price":   #[NOTE!!]
-#     interactive_bar.app()
 elif choose == "DATA COMPARISON":
     compare_tickets.app()
 elif choose == "DATA PREDICTION":  #Nhat's page

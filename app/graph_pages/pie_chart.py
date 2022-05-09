@@ -1,6 +1,7 @@
 import streamlit as st
-import matplotlib.pyplot as plot
 from prog import make_pie_chart
+import altair as alt
+import pandas as pd
 
 
 def app():
@@ -29,9 +30,15 @@ def app():
         )
 
     with st.container():
-        plot, etc_dict = make_pie_chart.draw_piechart(user_opt)
-        
-        st.pyplot(plot) # draw pie chart
+        label, ratio, etc_dict = make_pie_chart.draw_piechart(user_opt)
+        source = pd.DataFrame({"category": label, "value":ratio})
+
+        pie_chart=alt.Chart(source).mark_arc().encode(
+            theta=alt.Theta(field="value", type="quantitative"),
+            color=alt.Color(field="category", type="nominal"))
+        st.altair_chart(pie_chart)         # draw pie chart
+
+
         
         # show etc details
         etc_items_len = len(etc_dict)

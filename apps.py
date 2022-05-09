@@ -14,7 +14,7 @@ with open ('style.css') as f:
 
 ###################################################
 #Title: streamlit_all_gallery
-#Author: insightsbees 
+#Author: insightsbees
 #Date: 18 Feb 2022
 # Code version: (Unknown)
 #Availability: https://github.com/insightsbees/streamlit_app_gallery/blob/main/streamlit_app_gallary.py (Accessed 6 May 2022)

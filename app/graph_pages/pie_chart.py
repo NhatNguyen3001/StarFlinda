@@ -1,7 +1,5 @@
-import _tkinter
 import streamlit as st
 import matplotlib
-matplotlib.use('Agg')
 import matplotlib.pyplot as plot
 from prog import make_pie_chart
 

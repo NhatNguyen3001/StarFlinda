@@ -1,4 +1,3 @@
-import _tkinter
 import altair as alt
 from matplotlib.pyplot import scatter, title, ylim
 from numpy import size

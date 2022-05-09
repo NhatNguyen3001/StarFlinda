@@ -10,3 +10,4 @@ altair
 streamlit-folium
 scikit-learn
 click==8.0.4
+plotly_express==0.4.0

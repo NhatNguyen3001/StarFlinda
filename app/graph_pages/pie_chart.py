@@ -47,7 +47,6 @@ def app():
             last_item_idx = etc_items_len - 1
             idx = 0
             
-            print(etc_items_len)
             for k in etc_dict.keys():
                 items_list_str += k + "(" + str(etc_dict[k]) + "%)"
                 if (idx != last_item_idx):

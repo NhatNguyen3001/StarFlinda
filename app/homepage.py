@@ -304,9 +304,22 @@ def app():
                     </body>
             """, unsafe_allow_html=True)
 
+   
+    ###################################################
+    #Title: streamlit_navbar
+    #Author: Chanin Nantasenamat
+    #Date: 3 Oct, 2021
+    # Code version: (Unknown)
+    #Availability: https://github.com/dataprofessor/streamlit_navbar/blob/main/app_navbar.py (Accessed 8 May 2022)
+    ###################################################
 
 
-        # Footer
+    # Link css footer
+    st.markdown(
+        '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">',
+        unsafe_allow_html=True)
+ 
+    # Footer
     st.markdown("""
     <nav class="navbar fixed-bottom navbar-expand-xl navbar-dark" style="background-color: #234362; border-top-style: solid;">
     <div style="padding-left: 650px; color: #FFFFFF; "> ©All Rights Reserved By STAFLINDA</div>

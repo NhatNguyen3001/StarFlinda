@@ -11,14 +11,20 @@ def app():
     st.title("Table")
     with st.container():
         st.write("""
-                    StaFiIdia provides a data comparison service for two tickets' information.
-                    It enables users to see details of the ticket and compare two tickets by each element.
+                    StaFlinda’s Table shows the whole data of flights from India for the current month and last two months (currently is 01/03/2022 to 31/05/2022).
                     """)
         st.header("Guide")
         st.write("""
-                Step 1) Put the first ticket id and the second ticket id on the input box.\n
-                Step 2) Click the submit button.\n
-                Step 3) See the result.
+                    1. Filters \n
+                        Step 1) Click on Filters function  \n
+                        Step 2) Choose a column that you want to sort \n
+                        Step 3) Tick the boxes that contain the data \n
+                        Step 4) Check the table and see the result \n
+                    2. Columns \n
+                        Step 1) Click on Columns function \n
+                        Step 2) Tick the boxes to hide or show the columns \n
+                        Step 3) Check the table and see the result \n
+
                 """)
     # LOAD DATA
 

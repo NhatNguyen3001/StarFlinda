@@ -7,7 +7,7 @@ def app():
     st.title("Table")
     with st.container():
         st.write("""
-                    StaFlinda’s Table shows the whole data of flights from India for the current month and last two months (currently is 01/03/2022 to 31/05/2022).
+                    StaFlinda’s table shows the whole data of flights from India for the current month and last two months (currently is 01/03/2022 to 31/05/2022).
                     """)
         st.header("Guide")
         st.write("""

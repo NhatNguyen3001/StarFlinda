@@ -1,5 +1,5 @@
 import streamlit as st
-from app import compare_tickets, contact_us, homepage, search2, about_us
+from app import compare_tickets, contact_us, homepage, search2, about_us, data_prediction
 from app.graph_pages import table, plot_chart,bar_chart, pie_chart, map
 from streamlit_option_menu import option_menu
 
@@ -55,7 +55,7 @@ elif choose ==  "ㄴMap":
 elif choose == "DATA COMPARISON":
     compare_tickets.app()
 elif choose == "DATA PREDICTION":  #Nhat's page
-    contact_us.app() 
+    data_prediction.app() 
 elif choose == "ABOUT US":
     about_us.app()
 elif choose == "CONTACT US":

@@ -52,17 +52,18 @@ def app():
 
             with ui_col2:
                 ticket_id1 = st.text_input("TICKET ID",
-                                           value=0,
+                                           value=1,
                                            max_chars=20,
                                            key="tid1",
                                            help="Please enter the ticket id. You can search it on the Data search page.")
 
             with ui_col3:
                 ticket_id2 = st.text_input("TICKET ID",
-                                           value=1,
+                                           value=2,
                                            max_chars=20,
                                            key="tid2",
                                            help="Please enter the ticket id. You can search it on the Data search page.")
+
         # PART 2) submit form
             sm_col1, sm_col2, sm_col3 = st.columns([1, 1.5, 3])
             invalid_input = 0

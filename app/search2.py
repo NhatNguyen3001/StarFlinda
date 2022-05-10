@@ -132,15 +132,12 @@ def app():
 
     st.title("Data Search")
     with st.container():
-        st.write("""
-                    StaFiIdia provides a data comparison service for two tickets' information.
-                    It enables users to see details of the ticket and compare two tickets by each element.
+        st.write("""StaFiIndia offers a search service for a specific flight based on user input."
                     """)
         st.header("Guide")
         st.write("""
-                Step 1) Put the first ticket id and the second ticket id on the input box.\n
-                Step 2) Click the submit button.\n
-                Step 3) See the result.
+                Step 1) Enter your input \n
+                Step 2) View the information \n
                 """)
     departure_input = st.selectbox("Select your departure", ("Bangalore", "Delhi",
                                                             "Kolkata", "Chennai",

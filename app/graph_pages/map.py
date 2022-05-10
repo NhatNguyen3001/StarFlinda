@@ -5,16 +5,13 @@ import folium
 def app():
     st.title("Map")
     with st.container():
-        st.write("""
-                    StaFiIdia provides a data comparison service for two tickets' information.
-                    It enables users to see details of the ticket and compare two tickets by each element.
-                    """)
+        st.write("StaFiIndia provides the location of departure locations and arrival locations on a map with real coordinates ", 
+                        styles= {"text-align": "justify"})
         st.header("Guide")
         st.write("""
-                Step 1) Put the first ticket id and the second ticket id on the input box.\n
-                Step 2) Click the submit button.\n
-                Step 3) See the result.
-                """)
+                Step 1) Choose the class of flight you want to view \n
+                Step 2) Click on the marker to view extra information \n
+                        """, styles= {"text-align": "justify"})
     with st.container():
         class_to_view = st.selectbox("Choose a class", 
                                     ("Business", "Economy"))
